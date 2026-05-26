@@ -1,6 +1,8 @@
 Reads list_of_games.txt and writes index.html — a visual gallery with Steam cover art.
 --------------------------
 
+[Open wishlist...](https://bakeluco.github.io/wishlist/)
+
 HOW TO RUN:
 --------------------------
 1) Create a virtual environment:
@@ -19,10 +21,9 @@ REGENERATE AFTER ANY EDIT
 --------------------------
     python3 gen_games.py
 
-Commit both list_of_games.txt and index.html to GitHub.
-GitHub Pages will serve index.html automatically.
-Tip: rename index.html → index.html in your repo so the root URL opens it directly.
-
+- Commit both list_of_games.txt and index.html to GitHub.
+- GitHub Pages will serve index.html automatically.
+- Tip: rename index.html → index.html in your repo so the root URL opens it directly.
 
 HOW list_of_games.txt WORKS
 ============================
@@ -54,13 +55,13 @@ Append recognised words anywhere on the same line (case-insensitive).
 Parentheses are optional but keep things tidy.
 
     https://store.steampowered.com/app/1245620/ELDEN_RING/ (owned)
-    https://store.steampowered.com/app/2358720/Black_Myth_Wukong/ (denuvo - cracked)
+    https://store.steampowered.com/app/2358720/Black_Myth_Wukong/ (denuvo)
 
 Recognised badge words:
-    owned   → green  — you own it
-    played  → blue   — you've finished / played it
-    denuvo  → red    — has Denuvo DRM
-    cracked → orange — Denuvo gone / cracked
+- owned   → green  — you own it
+- played  → blue   — you've finished / played it
+- denuvo  → red    — has Denuvo DRM
+- cracked → orange — Denuvo gone / cracked
 
 MARK A GAME AS PLAYED (typical workflow)
 -----------------------------------------
@@ -91,16 +92,15 @@ Add a header line (dashes required):
 ===============
 Your workflow from now on:
 
-Edit list_of_games.txt — add/remove/badge games
-Run python3 gen_games.py — regenerates index.html
-git add list_of_games.txt index.html && git commit && git push
-For GitHub Pages: go to your repo's Settings → Pages → set source to the main branch root. 
-Rename index.html to index.html in the repo if you want username.github.io/reponame to open it directly without a /index.html suffix.
+- Edit list_of_games.txt — add/remove/badge games
+- Run python3 gen_games.py — regenerates index.html
+-       git add list_of_games.txt index.html && git commit && git push
+- For GitHub Pages: go to your repo's Settings → Pages → set source to the main branch root. 
+- Rename index.html to index.html in the repo if you want username.github.io/reponame to open it directly without a /index.html suffix.
 
 Common edits in list_of_games.txt:
-
-Beat a game → append (played) to its line
-Bought a game → append (owned) to its line
-Add a new game → paste the Steam URL under the right -CATEGORY- header
-Remove a game → delete the line
-Add a game you can't find yet → just write its name as plain text
+- Beat a game → append (played) to its line
+- Bought a game → append (owned) to its line
+- Add a new game → paste the Steam URL under the right -CATEGORY- header
+- Remove a game → delete the line
+- Add a game you can't find yet → just write its name as plain text
