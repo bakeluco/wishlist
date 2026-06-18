@@ -2,7 +2,6 @@ STEAM
     -- DENUVO --
 https://store.steampowered.com/app/2840770/Avatar_Frontiers_of_Pandora/ 
 https://store.steampowered.com/app/2054970/Dragons_Dogma_2/ 
-https://store.steampowered.com/app/3489700/Stellar_Blade/ 
 https://store.steampowered.com/app/2680010/The_First_Berserker_Khazan/ 
 https://store.steampowered.com/app/2358720/Black_Myth_Wukong/ 
 https://store.steampowered.com/app/668580/Atomic_Heart/ 
@@ -215,7 +214,6 @@ https://store.steampowered.com/app/2358720/Black_Myth_Wukong/  ( DENUVO )
 https://store.steampowered.com/app/1627720/Lies_of_P/ 
 https://store.steampowered.com/app/3564740/Where_Winds_Meet/ 
 
-https://store.steampowered.com/app/3489700/Stellar_Blade/ ( DENUVO )
 https://store.steampowered.com/app/2277560/WUCHANG_Fallen_Feathers/ 
 https://store.steampowered.com/app/1620730/Hell_is_Us/ 
 
@@ -240,6 +238,8 @@ https://store.steampowered.com/app/1371980/No_Rest_for_the_Wicked/
 -SKYRIM-LIKE-
 https://store.steampowered.com/app/951770/Forsaken_Realms_Vahrins_Call/ 
 https://store.steampowered.com/app/2946850/Streets_of_Fortuna/ 
+https://store.steampowered.com/app/1297900/Gothic_1_Remake/
+https://store.steampowered.com/app/1546090/RAIDBORN/
 
 -TOP-DOWN-DUNGEON-CRAWLER-ARPG-OBLIVION-LIKE-
 https://store.steampowered.com/app/1315180/Spark_in_the_Dark/ 
@@ -264,6 +264,7 @@ Resident Evil Outbreak 2 ps2
 Resident Evil The Umbrella Chronicles ps3
 Resident Evil The Darkside Chronicles ps3
 https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/ 
+https://store.steampowered.com/app/4824610/Resident_Evil_Veronica/ 
 
 https://store.steampowered.com/app/1732190/FATAL_FRAME__PROJECT_ZERO_Maiden_of_Black_Water/ (OWNED)
 https://store.steampowered.com/app/2130460/FATAL_FRAME__PROJECT_ZERO_Mask_of_the_Lunar_Eclipse/ (OWNED)
@@ -388,6 +389,7 @@ https://store.steampowered.com/app/1762010/Wrought_Flesh/
 https://store.steampowered.com/app/1765780/ADACA/
 https://store.steampowered.com/app/1907590/Psycho_Patrol_R/ 
 https://store.steampowered.com/app/1388770/Cruelty_Squad/ 
+https://store.steampowered.com/app/427410/Abiotic_Factor/ 
 
 -OPEN WORLD EXPLORATION-
 https://store.steampowered.com/app/1588550/Cairn/ 
@@ -447,6 +449,7 @@ https://store.steampowered.com/app/1220150/Blue_Fire/
 https://store.steampowered.com/app/2053910/Isopod_A_Webbed_Spinoff/ 
 https://store.steampowered.com/app/1325900/Demon_Turf_Queens_Edition/ ( before demon tides )
 https://store.steampowered.com/app/2585890/Demon_Tides/ ( after demon turf )
+https://store.steampowered.com/app/1675860/Junkster/
 https://store.steampowered.com/app/1657740/Mr_Sleepy_Man/ 
 https://store.steampowered.com/app/2238040/Tiny_Terrys_Turbo_Trip/
 https://store.steampowered.com/app/1586800/Lil_Gator_Game/
@@ -465,9 +468,10 @@ https://store.steampowered.com/app/2448020/YookaReplaylee https://store.steampow
 
 -DIABLO-LIKE-
 https://store.steampowered.com/app/1782460/Hell_Clock/
+https://store.steampowered.com/app/1210800/Rum__Gun/ 
+https://store.steampowered.com/app/3030720/FATE_Reawakened/
 https://store.steampowered.com/app/1695830/Baldurs_Gate_Dark_Alliance/ 
 https://store.steampowered.com/app/1889930/Baldurs_Gate_Dark_Alliance_II/ 
-https://store.steampowered.com/app/1210800/Rum__Gun/ 
 https://store.steampowered.com/app/1672970/Minecraft_Dungeons/ 
 https://store.steampowered.com/app/215530/The_Incredible_Adventures_of_Van_Helsing/ 
 https://store.steampowered.com/app/345180/Victor_Vran_ARPG/ 
@@ -489,4 +493,19 @@ https://store.steampowered.com/app/217290/Dins_Curse/
 https://store.steampowered.com/app/2074920/The_First_Descendant/ 
 https://store.steampowered.com/app/3513350/Wuthering_Waves/ 
 
+-COZY-FARMING-SIM-
+https://store.steampowered.com/app/2408820/Luma_Island/
+https://store.steampowered.com/app/1139980/Travellers_Rest/
+https://store.steampowered.com/app/1594940/Little_Witch_in_the_Woods/
 
+-CRAFTING-SURVIVAL-
+https://store.steampowered.com/app/1374490/RuneScape_Dragonwilds/
+https://store.steampowered.com/app/962130/Grounded/
+https://store.steampowered.com/app/1621690/Core_Keeper/
+https://store.steampowered.com/app/1805320/Romestead/
+
+-RUNESCAPE-LIKES-
+https://store.steampowered.com/app/1189290/The_Black_Grimoire_Cursebreaker/
+
+-TOMB-RAIDER-
+https://store.steampowered.com/app/3558670/Tomb_Raider_Legacy_of_Atlantis/
