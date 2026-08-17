@@ -99,12 +99,30 @@ Bought a game → append (owned) to its line
 Add a new game → paste the Steam URL under the right -CATEGORY- header
 Remove a game → delete the line
 Add a game you can't find yet → just write its name as plain text
+
+
+HOW manga.txt WORKS
+====================
+One MyAnimeList manga URL per line (an optional leading index/tab is ignored):
+
+    https://myanimelist.net/manga/85781/Dungeon_Meshi
+
+Title, cover image, volumes/chapters, status, genres, themes, demographic,
+serialization and authors are scraped from the MAL page the first time a
+manga is seen, then cached in manga_cache.json so re-running the script
+doesn't hit MAL again. Delete an entry from that cache (or pass
+--refresh-manga to re-fetch everything) to pick up changes on MAL, e.g. a
+series moving from "Publishing" to "Finished".
 """
 
-import re, json, os
+import re, json, os, sys, time, html as html_lib, urllib.request, urllib.error
 
 INPUT  = os.path.join(os.path.dirname(__file__), 'list_of_games.txt')
 OUTPUT = os.path.join(os.path.dirname(__file__), 'index.html')
+
+MANGA_INPUT = os.path.join(os.path.dirname(__file__), 'manga.txt')
+MANGA_CACHE = os.path.join(os.path.dirname(__file__), 'manga_cache.json')
+MAL_URL_RE  = re.compile(r'myanimelist\.net/manga/(\d+)(?:/([^/?\s]*))?')
 
 def parse_badges(s):
     b, l = [], s.lower()
@@ -197,6 +215,116 @@ def parse():
     return list(G.values())
 
 
+def parse_manga_list():
+    """Read manga.txt -> ordered, deduped list of (mal_id, slug, url)."""
+    if not os.path.exists(MANGA_INPUT):
+        return []
+    entries, seen = [], set()
+    with open(MANGA_INPUT, encoding='utf-8') as f:
+        for raw in f:
+            m = MAL_URL_RE.search(raw)
+            if not m: continue
+            mal_id, slug = m.group(1), m.group(2) or ''
+            if mal_id in seen: continue
+            seen.add(mal_id)
+            entries.append((mal_id, slug, f'https://myanimelist.net/manga/{mal_id}/{slug}' if slug
+                             else f'https://myanimelist.net/manga/{mal_id}'))
+    return entries
+
+
+def fetch_manga_info(mal_id, slug):
+    """Scrape a MAL manga page for title/cover/info. Returns a dict or None on failure."""
+    url = f'https://myanimelist.net/manga/{mal_id}/{slug}' if slug else f'https://myanimelist.net/manga/{mal_id}'
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (personal wishlist script)'})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            page = resp.read().decode('utf-8', errors='replace')
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        print(f'  ! failed to fetch manga {mal_id}: {e}')
+        return None
+
+    def simple(label):
+        m = re.search(r'dark_text">' + label + r':</span>\s*([^<\n]+)', page)
+        return html_lib.unescape(re.sub(r'\s+', ' ', m.group(1)).strip()) if m else None
+
+    def type_field(label):
+        m = re.search(r'dark_text">' + label + r':</span>\s*<a[^>]*>\s*([^<]+?)\s*</a>', page)
+        return m.group(1).strip() if m else None
+
+    def link_list(base):
+        m = re.search(r'dark_text">' + base + r's?:</span>(.*?)</div>', page, re.S)
+        if not m: return []
+        return [html_lib.unescape(t.strip()) for t in re.findall(r'<a[^>]*title="([^"]+)"', m.group(1))]
+
+    def authors():
+        m = re.search(r'dark_text">Authors?:</span>(.*?)</div>', page, re.S)
+        if not m: return []
+        pairs = re.findall(r'<a href="/people/\d+/[^"]*">([^<]+)</a>\s*\(([^)]*)\)', m.group(1))
+        return [[html_lib.unescape(n.strip()), html_lib.unescape(r.strip())] for n, r in pairs]
+
+    title_m = re.search(r'og:title" content="([^"]*)"', page)
+    img_m   = re.search(r'og:image" content="([^"]*)"', page)
+
+    title_en = simple('English')
+
+    return {
+        'id': mal_id,
+        'title': html_lib.unescape(title_m.group(1)) if title_m else f'Manga {mal_id}',
+        'title_en': title_en,
+        'url': url,
+        'image': img_m.group(1) if img_m else None,
+        'type': type_field('Type'),
+        'volumes': simple('Volumes'),
+        'chapters': simple('Chapters'),
+        'status': simple('Status'),
+        'published': simple('Published'),
+        'genres': link_list('Genre'),
+        'themes': link_list('Theme'),
+        'demographics': link_list('Demographic'),
+        'serializations': link_list('Serialization'),
+        'authors': authors(),
+    }
+
+
+def load_manga_cache():
+    if os.path.exists(MANGA_CACHE):
+        with open(MANGA_CACHE, encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def save_manga_cache(cache):
+    with open(MANGA_CACHE, 'w', encoding='utf-8') as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def build_manga_data(refresh=False):
+    entries = parse_manga_list()
+    if not entries:
+        return []
+    cache = {} if refresh else load_manga_cache()
+    changed = False
+    result = []
+    for mal_id, slug, url in entries:
+        if mal_id in cache and 'title_en' in cache[mal_id]:
+            result.append(cache[mal_id])
+            continue
+        print(f'  fetching manga {mal_id} ({slug or "?"})...')
+        info = fetch_manga_info(mal_id, slug)
+        if info is None:
+            info = {'id': mal_id, 'title': slug.replace('_', ' ') or f'Manga {mal_id}', 'title_en': None,
+                     'url': url, 'image': None, 'type': None, 'volumes': None, 'chapters': None, 'status': None,
+                     'published': None, 'genres': [], 'themes': [], 'demographics': [],
+                     'serializations': [], 'authors': []}
+        cache[mal_id] = info
+        changed = True
+        result.append(info)
+        time.sleep(1.5)
+    if changed:
+        save_manga_cache(cache)
+    return result
+
+
 TEMPLATE = '''\
 <!DOCTYPE html>
 <html lang="en">
@@ -242,15 +370,31 @@ main{padding:22px 16px;max-width:1900px;margin:0 auto}
 .titch{background:#1e0c14;color:#a02848;border:1px solid #380e24}
 .tgog{background:#1c0c28;color:#7838a8;border:1px solid #321650}
 .tepic{background:#1c0e0e;color:#884848;border:1px solid #341818}
+.tge{background:#0c1c2e;color:#3888c0;border:1px solid #163854}
+.tth{background:#1c1030;color:#8858c8;border:1px solid #301a54}
+.tdm{background:#20140a;color:#c08838;border:1px solid #402a12}
 .sec.hi,.card.hi{display:none}
 #nope{text-align:center;padding:80px;color:#282840;font-size:1rem;display:none}
+.tabs{display:flex;gap:6px}
+.tab{padding:6px 14px;border-radius:8px;border:1px solid #2c2c48;background:#191926;color:#606080;cursor:pointer;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;transition:all .15s;user-select:none}
+.tab:hover{border-color:#5050a0;color:#b0b0e0}
+.tab.on{background:#252558;border-color:#5050b8;color:#cccff8}
+.manga-iw{aspect-ratio:225/319}
+.ct-sub{font-size:.68rem;font-weight:500;color:#68688e;line-height:1.3;margin-top:-2px}
+.minfo{font-size:.68rem;color:#7878a0;line-height:1.5}
+.minfo b{color:#9a9ac8;font-weight:700}
+.mauth{font-size:.65rem;color:#585884;line-height:1.4}
 </style>
 </head>
 <body>
 <header>
   <span id="logo">Wishlist</span>
+  <div class="tabs">
+    <button class="tab on" data-tab="games">Games</button>
+    <button class="tab" data-tab="manga">Manga</button>
+  </div>
   <input id="search" type="text" placeholder="search title, category, badge… (owned · denuvo · played · ps1)" autocomplete="off" spellcheck="false">
-  <div class="qw">
+  <div class="qw" id="qw-games">
     <button class="qf on" data-f="">All</button>
     <button class="qf" data-f="owned">Owned</button>
     <button class="qf" data-f="played">Played</button>
@@ -260,13 +404,20 @@ main{padding:22px 16px;max-width:1900px;margin:0 auto}
     <button class="qf" data-f="ps1">PS1</button>
     <button class="qf" data-f="itch">Itch.io</button>
   </div>
+  <div class="qw" id="qw-manga" style="display:none">
+    <button class="qf on" data-f="">All</button>
+    <button class="qf" data-f="publishing">Publishing</button>
+    <button class="qf" data-f="finished">Finished</button>
+  </div>
   <span id="cnt"></span>
 </header>
-<main id="main"></main>
+<main id="main-games"></main>
+<main id="main-manga" style="display:none"></main>
 <div id="nope">No games found.</div>
 
 <script>
-const G = __DATA__;
+const G = __GAMES_DATA__;
+const M = __MANGA_DATA__;
 
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 
@@ -292,7 +443,7 @@ function tagHtml(g){
   return parts.join('');
 }
 
-function buildDOM(){
+function buildGamesDOM(){
   let html='';
   for(const [cat,games] of catMap){
     const cards = games.map((g,li)=>{
@@ -310,11 +461,11 @@ function buildDOM(){
 <div class="grid">${cards}</div>
 </section>`;
   }
-  document.getElementById('main').innerHTML = html;
+  document.getElementById('main-games').innerHTML = html;
 
   // Build per-card search strings and attach click
   let secIdx=0;
-  for(const sec of document.querySelectorAll('.sec')){
+  for(const sec of document.querySelectorAll('#main-games .sec')){
     const cat = [...catMap.keys()][secIdx++];
     const games = catMap.get(cat);
     sec.querySelectorAll('.card').forEach((el,i)=>{
@@ -325,13 +476,93 @@ function buildDOM(){
   }
 }
 
-buildDOM();
+function mangaSortKey(m){
+  return (m.title_en || m.title || '').toLowerCase();
+}
 
-let qf='';
-function doFilter(text,quick){
+const mangaStatusMap = new Map();
+for(const m of M){
+  const s = m.status || 'Unknown';
+  if(!mangaStatusMap.has(s)) mangaStatusMap.set(s,[]);
+  mangaStatusMap.get(s).push(m);
+}
+for(const arr of mangaStatusMap.values())
+  arr.sort((a,b)=>mangaSortKey(a).localeCompare(mangaSortKey(b)));
+
+function mangaOrder(a,b){
+  const order=['Publishing','Finished'];
+  const ia=order.indexOf(a), ib=order.indexOf(b);
+  if(ia===-1 && ib===-1) return a.localeCompare(b);
+  if(ia===-1) return 1;
+  if(ib===-1) return -1;
+  return ia-ib;
+}
+
+function mangaMetaLine(m){
+  const bits=[];
+  if(m.type) bits.push(`<b>${esc(m.type)}</b>`);
+  if(m.volumes) bits.push(`${esc(m.volumes)} vol`);
+  if(m.chapters) bits.push(`${esc(m.chapters)} ch`);
+  return bits.join(' · ');
+}
+
+function buildMangaDOM(){
+  let html='';
+  const keys=[...mangaStatusMap.keys()].sort(mangaOrder);
+  for(const st of keys){
+    const items = mangaStatusMap.get(st);
+    const cards = items.map((m,li)=>{
+      const urlCls = m.url ? ' has-url' : '';
+      const imgHtml = m.image ? `<img src="${esc(m.image)}" alt="" loading="lazy">` : '';
+      const chips = [
+        ...(m.demographics||[]).map(d=>`<span class="tg tdm">${esc(d)}</span>`),
+        ...(m.genres||[]).map(g=>`<span class="tg tge">${esc(g)}</span>`),
+        ...(m.themes||[]).map(t=>`<span class="tg tth">${esc(t)}</span>`),
+      ].join('');
+      const authors = (m.authors||[]).map(a=>a[1]?`${a[0]} (${a[1]})`:a[0]).join(', ');
+      const meta = mangaMetaLine(m);
+      const titleEn = m.title_en && m.title_en.toLowerCase()!==(m.title||'').toLowerCase() ? m.title_en : null;
+      return `<div class="card${urlCls}" data-i="${li}">
+<div class="iw manga-iw"><div class="ph">${esc((m.title||'?').charAt(0).toUpperCase())}</div>${imgHtml}</div>
+<div class="cb">
+<div class="ct">${esc(m.title||'Unknown')}</div>
+${titleEn?`<div class="ct-sub">${esc(titleEn)}</div>`:''}
+<div class="minfo">${meta}${m.published?`<br>${esc(m.published)}`:''}${(m.serializations&&m.serializations.length)?`<br>${esc(m.serializations.join(', '))}`:''}</div>
+${authors?`<div class="mauth">${esc(authors)}</div>`:''}
+<div class="tgs">${chips}</div>
+</div>
+</div>`;
+    }).join('');
+    html += `<section class="sec" data-cat="${esc(st)}">
+<div class="sec-hd"><h2>${esc(st)}</h2><span class="sec-n">${items.length}</span></div>
+<div class="grid">${cards}</div>
+</section>`;
+  }
+  document.getElementById('main-manga').innerHTML = html;
+
+  let secIdx=0;
+  for(const sec of document.querySelectorAll('#main-manga .sec')){
+    const st = keys[secIdx++];
+    const items = mangaStatusMap.get(st);
+    sec.querySelectorAll('.card').forEach((el,i)=>{
+      const m = items[i];
+      el._s = [m.title,m.title_en,m.type,m.status,m.published,...(m.genres||[]),...(m.themes||[]),
+               ...(m.demographics||[]),...(m.serializations||[]),...(m.authors||[]).map(a=>a[0])]
+              .filter(Boolean).join(' ').toLowerCase();
+      if(m.url) el.addEventListener('click',()=>window.open(m.url,'_blank'));
+    });
+  }
+}
+
+buildGamesDOM();
+buildMangaDOM();
+
+let activeTab='games', qfGames='', qfManga='';
+
+function doFilter(containerSel,text,quick,label){
   const terms=(text+' '+quick).trim().toLowerCase().split(/\\s+/).filter(Boolean);
   let total=0;
-  for(const sec of document.querySelectorAll('.sec')){
+  for(const sec of document.querySelectorAll(containerSel+' .sec')){
     let n=0;
     for(const card of sec.querySelectorAll('.card')){
       const match=!terms.length||terms.every(t=>card._s.includes(t));
@@ -343,28 +574,59 @@ function doFilter(text,quick){
     if(el) el.textContent=n;
     total+=n;
   }
-  document.getElementById('cnt').textContent=total+' games';
+  document.getElementById('cnt').textContent=total+' '+label;
   document.getElementById('nope').style.display=total?'none':'block';
 }
 
-doFilter('','');
+function refresh(){
+  if(activeTab==='games') doFilter('#main-games',inp.value,qfGames,'games');
+  else doFilter('#main-manga',inp.value,qfManga,'manga');
+}
 
 const inp=document.getElementById('search');
-inp.addEventListener('input',()=>doFilter(inp.value,qf));
-for(const btn of document.querySelectorAll('.qf')){
+inp.addEventListener('input',refresh);
+
+document.querySelectorAll('#qw-games .qf').forEach(btn=>{
   btn.addEventListener('click',()=>{
-    document.querySelectorAll('.qf').forEach(b=>b.classList.remove('on'));
+    document.querySelectorAll('#qw-games .qf').forEach(b=>b.classList.remove('on'));
     btn.classList.add('on');
-    qf=btn.dataset.f;
-    doFilter(inp.value,qf);
+    qfGames=btn.dataset.f;
+    refresh();
   });
-}
+});
+document.querySelectorAll('#qw-manga .qf').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('#qw-manga .qf').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on');
+    qfManga=btn.dataset.f;
+    refresh();
+  });
+});
+
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on');
+    activeTab=btn.dataset.tab;
+    document.getElementById('main-games').style.display=activeTab==='games'?'':'none';
+    document.getElementById('main-manga').style.display=activeTab==='manga'?'':'none';
+    document.getElementById('qw-games').style.display=activeTab==='games'?'':'none';
+    document.getElementById('qw-manga').style.display=activeTab==='manga'?'':'none';
+    inp.placeholder=activeTab==='games'
+      ? 'search title, category, badge… (owned · denuvo · played · ps1)'
+      : 'search title, genre, theme, author, status…';
+    refresh();
+  });
+});
+
+refresh();
 </script>
 </body>
 </html>
 '''
 
 def main():
+    refresh_manga = '--refresh-manga' in sys.argv
     games = parse()
     print(f'Parsed {len(games)} games')
     cats = {}
@@ -373,8 +635,12 @@ def main():
         cats[c] = cats.get(c,0)+1
     for c,n in cats.items():
         print(f'  {c}: {n}')
-    data_json = json.dumps(games, ensure_ascii=False)
-    html = TEMPLATE.replace('__DATA__', data_json)
+
+    manga = build_manga_data(refresh=refresh_manga)
+    print(f'Parsed {len(manga)} manga')
+
+    html = TEMPLATE.replace('__GAMES_DATA__', json.dumps(games, ensure_ascii=False))
+    html = html.replace('__MANGA_DATA__', json.dumps(manga, ensure_ascii=False))
     with open(OUTPUT, 'w', encoding='utf-8') as f:
         f.write(html)
     print(f'\nWrote: {OUTPUT}')

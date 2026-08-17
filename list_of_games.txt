@@ -2,14 +2,17 @@ STEAM
     -- DENUVO --
 https://store.steampowered.com/app/2840770/Avatar_Frontiers_of_Pandora/ 
 https://store.steampowered.com/app/2054970/Dragons_Dogma_2/ 
-https://store.steampowered.com/app/2680010/The_First_Berserker_Khazan/ 
-https://store.steampowered.com/app/2358720/Black_Myth_Wukong/ 
-https://store.steampowered.com/app/668580/Atomic_Heart/ 
 https://store.steampowered.com/app/801800/Atomfall/ 
-https://store.steampowered.com/app/1941540/Mafia_The_Old_Country/ 
 https://store.steampowered.com/app/3321460/Crimson_Desert/ 
 https://store.steampowered.com/app/1611910/Warhammer_40000_Chaos_Gate__Daemonhunters/ 
+
+https://store.steampowered.com/app/2358720/Black_Myth_Wukong/
 https://store.steampowered.com/app/3357650/PRAGMATA/ 
+https://store.steampowered.com/app/3768760/007_First_Light/
+https://store.steampowered.com/app/2680010/The_First_Berserker_Khazan/ 
+https://store.steampowered.com/app/1941540/Mafia_The_Old_Country/ 
+https://store.steampowered.com/app/2215200/LEGO_Batman_Legacy_of_the_Dark_Knight/
+https://store.steampowered.com/app/3159330/Assassins_Creed_Shadows/
 
 https://store.steampowered.com/app/1172710/Dune_Awakening/ 
 https://store.steampowered.com/app/553850/HELLDIVERS_2/ 
@@ -29,6 +32,17 @@ https://store.steampowered.com/app/449960/Book_of_Demons/
 -CRPG-PS1-
 https://store.steampowered.com/app/1069160/SKALD_Against_the_Black_Priory/
 https://store.steampowered.com/app/3940340/Entropy/ 
+
+
+-ISOMETRIC-ACTION-ADVENTURE-ZELDA-LIKE-
+https://store.steampowered.com/app/553420/TUNIC/ 
+https://store.steampowered.com/app/894020/Deaths_Door/ 
+https://store.steampowered.com/app/2318070/Little_Big_Adventure__Twinsens_Quest/
+https://store.steampowered.com/app/990630/The_Last_Campfire 
+
+-ISOMETRIC-ACTION-ADVENTURE-ZELDA-LIKE-PIXEL-PS1-ARPG-
+https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/
+https://store.steampowered.com/app/2412200/Cthulhus_Reach_Devil_Reef/
 
 -PIXEL METROIDVANIA-
 https://store.steampowered.com/app/774361/Blasphemous/ (owned)
@@ -68,7 +82,7 @@ https://store.steampowered.com/app/2751000/Prince_of_Persia_The_Lost_Crown/ ( DE
 https://store.steampowered.com/app/692850/Bloodstained_Ritual_of_the_Night/ (owned)
 https://store.steampowered.com/app/1883810/Bloodstained_The_Scarlet_Engagement/ 
 https://store.steampowered.com/app/1369630/ENDER_LILIES_Quietus_of_the_Knights/ (owned)
-https://store.steampowered.com/app/2725260/ENDER_MAGNOLIA_Bloom_in_the_Mist/ 
+https://store.steampowered.com/app/2725260/ENDER_MAGNOLIA_Bloom_in_the_Mist/ (owned)
 https://store.steampowered.com/app/367520/Hollow_Knight/ (owned - played)
 https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/ 
 https://store.steampowered.com/app/940910/Minoria/ (owned )
@@ -92,12 +106,16 @@ https://store.steampowered.com/app/1517970/Aeterna_Noctis/
 https://store.steampowered.com/app/1430220/BIOMORPH/ 
 https://store.steampowered.com/app/269650/Dex/ 
 https://store.steampowered.com/app/236090/Dust_An_Elysian_Tail/ 
+https://store.steampowered.com/app/1672810/MIO_Memories_in_Orbit/
 
 -PIXEL SIDESCROLLER-
 https://store.steampowered.com/app/2371890/Chronicles_of_the_Wolf/ 
+https://store.steampowered.com/app/1872040/Toziuha_Night_Draculas_Revenge/
 https://store.steampowered.com/app/2112750/Toziuha_Night_Order_of_the_Alchemists/ 
+https://store.steampowered.com/app/1445740/Carpathian_Night_Starring_Bela_Lugosi/
 https://store.steampowered.com/app/1390350/Webbed/ 
 https://store.steampowered.com/app/4233530/Legacy_of_Kain_Ascendance/ 
+https://store.steampowered.com/app/2081400/Gal_Guardians_Demon_Purge/
 https://store.steampowered.com/app/2231450/Pizza_Tower/ 
 https://store.steampowered.com/app/1928690/Bionic_Bay/ 
 https://store.steampowered.com/app/2542120/NINJA_GAIDEN_Ragebound/ 
@@ -121,6 +139,15 @@ https://store.steampowered.com/app/2473350/HUNTDOWN_OVERTIME/
 https://store.steampowered.com/app/3110760/Alabaster_Dawn/ 
 https://store.steampowered.com/app/4466620/SiNiSistar_2/ 
 https://store.steampowered.com/app/2295610/Abathor/ 
+https://store.steampowered.com/app/369070/Slain_Back_from_Hell/
+https://store.steampowered.com/app/319480/Odallus_The_Dark_Call/
+https://store.steampowered.com/app/601810/Spark_the_Electric_Jester/
+
+-2D SIDESCROLLER-
+https://store.steampowered.com/app/268910/Cuphead/
+
+-3D SIDESCROLLER-
+https://store.steampowered.com/app/2129530/REANIMAL/
 
 -TOP-DOWN-2D-
 https://store.steampowered.com/app/1905530/Hammerwatch_Anniversary_Edition/ 
@@ -130,6 +157,8 @@ https://store.steampowered.com/app/1649740/Hunt_the_Night/
 https://store.steampowered.com/app/2394650/Crypt_Custodian/ 
 https://store.steampowered.com/app/368340/CrossCode/ 
 https://store.steampowered.com/app/3216340/Tearscape/ 
+https://store.steampowered.com/app/1875580/Mina_the_Hollower/
+https://store.steampowered.com/app/1845250/Rubinite/
 
 -BOOM SHOOT-
 https://store.steampowered.com/app/1836730/Echo_Point_Nova/
@@ -189,6 +218,8 @@ https://store.steampowered.com/app/405830/Turok_2_Seeds_of_Evil/
 https://store.steampowered.com/app/1996770/Turok_3_Shadow_of_Oblivion_Remastered/ 
 https://store.steampowered.com/app/1762010/Wrought_Flesh/ 
 https://store.steampowered.com/app/1853760/Frogmonster/ 
+https://store.steampowered.com/app/1574480/Agent_64_Spies_Never_Die/
+https://store.steampowered.com/app/3748520/SPRAWL_zero/
 
 -KINGSFIELD-LIKE || SURREAL EXPLORATION-
 https://store.steampowered.com/app/1639790/Northern_Journey/ 
@@ -236,22 +267,19 @@ https://store.steampowered.com/app/1654660/En_Garde/
 https://store.steampowered.com/app/1371980/No_Rest_for_the_Wicked/ 
 
 -SKYRIM-LIKE-
+https://store.steampowered.com/app/288470/Fable_Anniversary/
+https://store.steampowered.com/app/204030/Fable__The_Lost_Chapters/
 https://store.steampowered.com/app/951770/Forsaken_Realms_Vahrins_Call/ 
 https://store.steampowered.com/app/2946850/Streets_of_Fortuna/ 
 https://store.steampowered.com/app/1297900/Gothic_1_Remake/
 https://store.steampowered.com/app/1546090/RAIDBORN/
+https://store.steampowered.com/app/2769570/Fable/
 
 -TOP-DOWN-DUNGEON-CRAWLER-ARPG-OBLIVION-LIKE-
 https://store.steampowered.com/app/1315180/Spark_in_the_Dark/ 
 
 -RPG-HACK-SLASH-PS1-PIXEL-
 https://store.steampowered.com/app/2259260/Tyrants_Realm/ 
-
--ZELDA-LIKE-
-https://store.steampowered.com/app/553420/TUNIC/ 
-https://store.steampowered.com/app/894020/Deaths_Door/ 
-https://store.steampowered.com/app/1344990/Zefyr_A_Thiefs_Melody 
-https://store.steampowered.com/app/990630/The_Last_Campfire 
 
 -RE / FATAL FRAME-
 https://store.steampowered.com/app/339340/Resident_Evil_0/ (OWNED)
@@ -275,12 +303,20 @@ https://store.steampowered.com/app/2123640/Hollowbody/ (OWNED)
 https://store.steampowered.com/app/1257030/Heartworm/ (OWNED)
 https://store.steampowered.com/app/1262350/SIGNALIS/  (owned)
 https://store.steampowered.com/app/1696960/Lake_Haven__Chrysalis/ (OWNED)
+https://store.steampowered.com/app/1286990/CONSCRIPT_Directors_Cut/ (owned)
 https://store.steampowered.com/app/3316350/Flesh_Made_Fear/
 https://store.steampowered.com/app/1996010/Crow_Country/ (owned - played)
 https://store.steampowered.com/app/1335530/Alisa/ ( owned )
+https://store.steampowered.com/app/1796580/Sorry_Were_Closed/ (OWNED - EPIC)
 https://store.steampowered.com/app/2340130/Ground_Zero/ 
 https://store.steampowered.com/app/1480830/Evil_Tonight/ 
 https://store.steampowered.com/app/3695570/HADES_Zero/ 
+https://store.steampowered.com/app/1446350/You_Will_Die_Here_Tonight/ 
+https://store.steampowered.com/app/1959390/Fear_the_Spotlight/
+
+https://store.steampowered.com/app/1460210/Compound_Fracture/
+https://store.steampowered.com/app/2494020/Samurai_Unicorn/
+https://store.steampowered.com/app/3014650/45_PARABELLUM_BLOODHOUND__Cyberpunk_Active_Time_Action/
 
 https://store.steampowered.com/app/2451040/Scarlet_Lake/ 
 https://store.steampowered.com/app/3779320/Jungle_Rot/ 
@@ -289,8 +325,13 @@ https://store.steampowered.com/app/1556850/The_Lunar_Effect/
 https://store.steampowered.com/app/2875410/Pinnacle_Point/
 https://store.steampowered.com/app/3547910/Alisa_The_Parting/
 https://store.steampowered.com/app/1848610/Rogue_Mansion/ 
+https://store.steampowered.com/app/3851600/Pulsebreaker/
+https://store.steampowered.com/app/3579980/Departure_of_Darkness/
+https://store.steampowered.com/app/2821110/Subversive_Memories/
+https://store.steampowered.com/app/3349520/Iris_Dissolution/
 
 -RE-SH-CLONE-FPS-
+https://store.steampowered.com/app/963710/Lost_in_Vivo/ (owned)
 https://store.steampowered.com/app/1848450/Nightmare_of_Decay/ ( owned )
 https://store.steampowered.com/app/1254370/No_one_lives_under_the_lighthouse_Directors_cut/
 https://store.steampowered.com/app/2208350/Total_Chaos/ 
@@ -299,32 +340,31 @@ https://store.steampowered.com/app/1298140/Fobia__St_Dinfna_Hotel/ (OWNED)
 -RE-SH CLONE-
 https://store.steampowered.com/app/1604630/Kriophobia/ 
 https://store.steampowered.com/app/1598780/Silly_Polly_Beast/
-https://store.steampowered.com/app/2266890/BECROWNED/ https://store.steampowered.com/app/3018390/PSYCHO_DEAD/ 
+https://store.steampowered.com/app/2266890/BECROWNED/ 
+https://store.steampowered.com/app/3018390/PSYCHO_DEAD/ 
 https://store.steampowered.com/app/1293730/Broken_Pieces/ (OWNED)
-https://store.steampowered.com/app/915600/Them_and_Us/
+https://store.steampowered.com/app/915600/Them_and_Us/ (OWNED)
 https://store.steampowered.com/app/1367590/Tormented_Souls/ (owned - played)
 https://store.steampowered.com/app/2464280/Tormented_Souls_2/ (OWNED)
 
 https://store.steampowered.com/app/495420/State_of_Decay_2_Juggernaut_Edition/ (owned)
 https://store.steampowered.com/app/1096570/SONG_OF_HORROR_COMPLETE_EDITION/ (owned)
-https://store.steampowered.com/app/963710/Lost_in_Vivo/ (owned)
 https://store.steampowered.com/app/274520/Darkwood/ (owned)
 https://store.steampowered.com/app/241540/State_of_Decay/ 
 
-https://store.steampowered.com/app/1286990/CONSCRIPT_Directors_Cut/ (owned)
-https://store.steampowered.com/app/1446350/You_Will_Die_Here_Tonight/ 
-https://store.steampowered.com/app/1796580/Sorry_Were_Closed/
-https://store.steampowered.com/app/1959390/Fear_the_Spotlight/
 https://store.steampowered.com/app/2463620/Connection_The_Nightmare_Within/
 https://store.steampowered.com/app/1033950/Lamentum/
 
-https://store.steampowered.com/app/1460210/Compound_Fracture/
-https://store.steampowered.com/app/2494020/Samurai_Unicorn/
-https://store.steampowered.com/app/3014650/45_PARABELLUM_BLOODHOUND__Cyberpunk_Active_Time_Action/
 https://store.steampowered.com/app/1750030/Post_Trauma/
 https://store.steampowered.com/app/2173460/Echoes_of_the_Living/ 
-https://gamejolt.com/games/simulacrum_chapter_one/233384
 https://store.steampowered.com/app/2604490/I_Hate_This_Place/ 
+https://store.steampowered.com/app/2219890/THE_MUTE_HOUSE/
+https://store.steampowered.com/app/2254890/The_Killing_Antidote/
+https://store.steampowered.com/app/2953480/Lunar_Eclipse/
+https://store.steampowered.com/app/3946040/Faithless_Water/
+https://store.steampowered.com/app/3983000/Parasite_Mutant/
+
+https://gamejolt.com/games/simulacrum_chapter_one/233384
 
 https://store.steampowered.com/app/3823450/Terminus/
 https://hades714.itch.io/terminus
@@ -373,12 +413,19 @@ https://store.steampowered.com/app/1063660/Bendy_and_the_Dark_Revival/
 https://store.steampowered.com/app/3232610/Bendy_Lone_Wolf/
 https://store.steampowered.com/app/2663960/Bendy_The_Cage/ 
 
+-HORROR-PS1-
+https://store.steampowered.com/app/4244640/Foghorns_Drown/
+https://store.steampowered.com/app/3034670/Abrasion/
+
 - IMMERSIVE SIM -
 https://store.steampowered.com/app/2168070/Sorceress/
 https://store.steampowered.com/app/482400/System_Shock/ 
 https://store.steampowered.com/app/866570/System_Shock_2_25th_Anniversary_Remaster/ 
+https://store.steampowered.com/app/3131640/Deus_Ex_Remastered/
 
 -IMMERSIVE SIM-PS1-
+https://store.steampowered.com/app/6910/Deus_Ex_Game_of_the_Year_Edition/ (OWNED)
+https://store.steampowered.com/app/397550/Deus_Ex_Revision/
 https://store.steampowered.com/app/2530250/PARKSIDE_DECAYED_SOUL_MANIPULATION/
 https://store.steampowered.com/app/1437760/Peripeteia/
 https://store.steampowered.com/app/3594120/Brush_Burial_Gutter_World/ 
@@ -390,10 +437,12 @@ https://store.steampowered.com/app/1765780/ADACA/
 https://store.steampowered.com/app/1907590/Psycho_Patrol_R/ 
 https://store.steampowered.com/app/1388770/Cruelty_Squad/ 
 https://store.steampowered.com/app/427410/Abiotic_Factor/ 
+https://store.steampowered.com/app/3970690/Project_Shadowglass/
+https://store.steampowered.com/app/1692240/Fortunes_Run/
+https://store.steampowered.com/app/2067820/RetroSpace/
 
 -OPEN WORLD EXPLORATION-
 https://store.steampowered.com/app/1588550/Cairn/ 
-https://store.steampowered.com/app/1977170/Jusant/ 
 https://store.steampowered.com/app/1582650/Caravan_SandWitch/
 https://store.steampowered.com/app/757310/Sable
 https://store.steampowered.com/app/580200/Yonder_The_Cloud_Catcher_Chronicles/ 
@@ -439,12 +488,18 @@ https://store.steampowered.com/app/3183970/GEX_Trilogy
 https://store.steampowered.com/app/3737610/Explosiovania/ 
 https://store.steampowered.com/app/4450800/Idols_of_Ash/ 
 https://store.steampowered.com/app/3724910/Serene_Estates_Last_Guy/ 
+https://store.steampowered.com/app/3411900/Kero_Quest_64/
+https://store.steampowered.com/app/1949960/Super_Kiwi_64/ (OWNED)
+https://store.steampowered.com/app/1696720/PsiloSybil/
+https://store.steampowered.com/app/1562410/Slime_64/
 
--3D PLATFORMER-
+-3D-PLATFORMER-
 https://store.steampowered.com/app/2146290/The_Big_Catch/ 
-https://store.steampowered.com/app/2985610/The_Big_Catch_Tacklebox/ 
-https://store.steampowered.com/app/537450/ReCore_Definitive_Edition/ 
+https://store.steampowered.com/app/2985610/The_Big_Catch_Tacklebox/ (OWNED)
+https://store.steampowered.com/app/537450/ReCore_Definitive_Edition/ (OWNED)
 https://store.steampowered.com/app/3237970/Bubsy_4D/ 
+https://store.steampowered.com/app/2938870/Maseylia__Echoes_of_the_Past/
+https://store.steampowered.com/app/1353230/Bomb_Rush_Cyberfunk/
 https://store.steampowered.com/app/1220150/Blue_Fire/ 
 https://store.steampowered.com/app/2053910/Isopod_A_Webbed_Spinoff/ 
 https://store.steampowered.com/app/1325900/Demon_Turf_Queens_Edition/ ( before demon tides )
@@ -465,8 +520,29 @@ https://store.steampowered.com/app/2479650/SpongeBob_SquarePants_Titans_of_the_T
 https://store.steampowered.com/app/1282150/SpongeBob_SquarePants_The_Cosmic_Shake/
 https://store.steampowered.com/app/996580/Spyro_Reignited_Trilogy 
 https://store.steampowered.com/app/2448020/YookaReplaylee https://store.steampowered.com/app/411960/TY_the_Tasmanian_Tiger 
+https://store.steampowered.com/app/313810/Legend_of_Kay_Anniversary/
+https://store.steampowered.com/app/532320/de_Blob/
+https://store.steampowered.com/app/563190/de_Blob_2/
+https://store.steampowered.com/app/1094720/Clive_N_Wrench/
+https://store.steampowered.com/app/1079210/Spark_the_Electric_Jester_2/
+https://store.steampowered.com/app/1629530/Spark_the_Electric_Jester_3/
+https://store.steampowered.com/app/1276740/Protodroid_DeLTA/
+https://store.steampowered.com/app/452540/Skylar__Plux_Adventure_On_Clover_Island/
+https://store.steampowered.com/app/2602020/The_Smurfs__Dreams/
+https://store.steampowered.com/app/2740750/Rollin_Rascal/
+https://store.steampowered.com/app/2298250/GearGrit/
+https://store.steampowered.com/app/1554640/Super_Sami_Roll/
+https://store.steampowered.com/app/1061180/Crumble/
+https://store.steampowered.com/app/3914860/Moss_The_Forgotten_Relic/
+https://store.steampowered.com/app/2542020/Duskfade/
 
--DIABLO-LIKE-
+-3D-ACTION-ADVENTURE-OPEN-WORLD-ZELDA-LIKE-
+https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/
+https://store.steampowered.com/app/1534840/Hyper_Light_Breaker/
+https://store.steampowered.com/app/1344990/Zefyr_A_Thiefs_Melody 
+https://store.steampowered.com/app/2467880/Fading_Echo/
+
+-DIABLO-LIKE-ARPG-
 https://store.steampowered.com/app/1782460/Hell_Clock/
 https://store.steampowered.com/app/1210800/Rum__Gun/ 
 https://store.steampowered.com/app/3030720/FATE_Reawakened/
@@ -490,6 +566,7 @@ https://store.steampowered.com/app/217290/Dins_Curse/
 
 
 -GACHA-
+https://store.steampowered.com/app/4570720/DragonSword__Awakening/
 https://store.steampowered.com/app/2074920/The_First_Descendant/ 
 https://store.steampowered.com/app/3513350/Wuthering_Waves/ 
 
