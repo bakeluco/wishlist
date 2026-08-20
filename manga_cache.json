@@ -1,4 +1,131 @@
 {
+  "1": {
+    "authors": [
+      [
+        "Urasawa, Naoki",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "162",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Award Winning",
+      "Drama",
+      "Mystery"
+    ],
+    "id": "1",
+    "image": "https://cdn.myanimelist.net/images/manga/3/258224.jpg",
+    "published": "Dec 5, 1994 to Dec 20, 2001",
+    "serializations": [
+      "Big Comic Original"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Adult Cast",
+      "Psychological"
+    ],
+    "title": "Monster",
+    "title_en": "Monster",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/1/Monster",
+    "volumes": "18"
+  },
+  "10": {
+    "authors": [
+      [
+        "CLAMP",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "213",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Supernatural"
+    ],
+    "id": "10",
+    "image": "https://cdn.myanimelist.net/images/manga/3/217533.jpg",
+    "published": "Feb 24, 2003 to Feb 9, 2011",
+    "serializations": [
+      "Young Magazine (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "xxxHOLiC",
+    "title_en": "xxxHOLiC",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/10/xxxHOLiC",
+    "volumes": "19"
+  },
+  "100035": {
+    "authors": [
+      [
+        "Shirahama, Kamome",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Fantasy"
+    ],
+    "id": "100035",
+    "image": "https://cdn.myanimelist.net/images/manga/3/190005.jpg",
+    "published": "Jul 22, 2016 to ?",
+    "serializations": [
+      "Morning Two"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Tongari Boushi no Atelier",
+    "title_en": "Witch Hat Atelier",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/100035/Tongari_Boushi_no_Atelier",
+    "volumes": "Unknown"
+  },
+  "10010": {
+    "authors": [
+      [
+        "Tamura, Ryuuhei",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "250",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Supernatural"
+    ],
+    "id": "10010",
+    "image": "https://cdn.myanimelist.net/images/manga/3/188942.jpg",
+    "published": "Feb 23, 2009 to Mar 13, 2015",
+    "serializations": [
+      "Shounen Jump (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Childcare",
+      "Delinquents",
+      "Mythology",
+      "School"
+    ],
+    "title": "Beelzebub",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/10010/Beelzebub",
+    "volumes": "28"
+  },
   "1023": {
     "authors": [
       [
@@ -32,6 +159,144 @@
     "url": "https://myanimelist.net/manga/1023/Koukaku_Kidoutai__The_Ghost_in_the_Shell",
     "volumes": "1"
   },
+  "103173": {
+    "authors": [
+      [
+        "Hanada, Keika",
+        "Story"
+      ],
+      [
+        "Kanemune",
+        "Art"
+      ]
+    ],
+    "chapters": "22",
+    "demographics": [
+      "Shoujo"
+    ],
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Supernatural"
+    ],
+    "id": "103173",
+    "image": "https://cdn.myanimelist.net/images/manga/2/205751.jpg",
+    "published": "Aug 6, 2014 to Aug 5, 2017",
+    "serializations": [
+      "Mystery Bonita"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Psychological"
+    ],
+    "title": "Fata Morgana no Yakata: Anata no Hitomi wo Tozasu Monogatari",
+    "title_en": "The House in Fata Morgana: The Veil Over Your Eyes",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/103173/Fata_Morgana_no_Yakata__Anata_no_Hitomi_wo_Tozasu_Monogatari",
+    "volumes": "5"
+  },
+  "103701": {
+    "authors": [
+      [
+        "Itagaki, Paru",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "196",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Award Winning",
+      "Drama",
+      "Slice of Life"
+    ],
+    "id": "103701",
+    "image": "https://cdn.myanimelist.net/images/manga/2/189832.jpg",
+    "published": "Sep 8, 2016 to Oct 8, 2020",
+    "serializations": [
+      "Shounen Champion (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Anthropomorphic",
+      "Psychological"
+    ],
+    "title": "Beastars",
+    "title_en": "Beastars",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/103701/Beastars",
+    "volumes": "22"
+  },
+  "104271": {
+    "authors": [
+      [
+        "Oshimi, Shuuzou",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "153",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "id": "104271",
+    "image": "https://cdn.myanimelist.net/images/manga/1/200350.jpg",
+    "published": "Feb 24, 2017 to Sep 8, 2023",
+    "serializations": [
+      "Big Comic Superior"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Psychological"
+    ],
+    "title": "Chi no Wadachi",
+    "title_en": "Blood on the Tracks",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/104271/Chi_no_Wadachi",
+    "volumes": "17"
+  },
+  "104314": {
+    "authors": [
+      [
+        "Kaneshiro, Muneyuki",
+        "Story"
+      ],
+      [
+        "Nishida, Kensuke",
+        "Art"
+      ]
+    ],
+    "chapters": "163",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Supernatural"
+    ],
+    "id": "104314",
+    "image": "https://cdn.myanimelist.net/images/manga/2/273180.jpg",
+    "published": "Feb 6, 2017 to Nov 8, 2021",
+    "serializations": [
+      "Big Comic Spirits"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore"
+    ],
+    "title": "Jagaaaaaan",
+    "title_en": "Jagaaan",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/104314/Jagaaaaaan",
+    "volumes": "14"
+  },
   "1045": {
     "authors": [
       [
@@ -60,6 +325,34 @@
     "type": "Manga",
     "url": "https://myanimelist.net/manga/1045/Saint_Seiya",
     "volumes": "28"
+  },
+  "1067": {
+    "authors": [
+      [
+        "Souryo, Fuyumi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "106",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [],
+    "id": "1067",
+    "image": "https://cdn.myanimelist.net/images/manga/2/207459.jpg",
+    "published": "Mar 24, 2005 to Nov 25, 2021",
+    "serializations": [
+      "Morning"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical"
+    ],
+    "title": "Cesare: Hakai no Souzousha",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/1067/Cesare__Hakai_no_Souzousha",
+    "volumes": "13"
   },
   "109339": {
     "authors": [
@@ -96,6 +389,292 @@
     "url": "https://myanimelist.net/manga/109339/Saihate_no_Paladin",
     "volumes": "Unknown"
   },
+  "110485": {
+    "authors": [
+      [
+        "Fukui, Takumi",
+        "Story"
+      ],
+      [
+        "Umemura, Shinya",
+        "Story"
+      ],
+      [
+        "Ajichika",
+        "Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "110485",
+    "image": "https://cdn.myanimelist.net/images/manga/3/209957.jpg",
+    "published": "Nov 25, 2017 to ?",
+    "serializations": [
+      "Comic Zenon"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Mythology"
+    ],
+    "title": "Shuumatsu no Walküre",
+    "title_en": "Record of Ragnarok",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/110485/Shuumatsu_no_Walk%C3%BCre",
+    "volumes": "Unknown"
+  },
+  "110771": {
+    "authors": [
+      [
+        "Izumi, Mitsu",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Fantasy"
+    ],
+    "id": "110771",
+    "image": "https://cdn.myanimelist.net/images/manga/3/208938.jpg",
+    "published": "Nov 7, 2017 to ?",
+    "serializations": [
+      "good! Afternoon"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Toshokan no Daimajutsushi",
+    "title_en": "Magus of the Library",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/110771/Toshokan_no_Daimajutsushi",
+    "volumes": "Unknown"
+  },
+  "111213": {
+    "authors": [
+      [
+        "Kim, Carnby",
+        "Story"
+      ],
+      [
+        "Hwang, Young-chan",
+        "Art"
+      ]
+    ],
+    "chapters": "94",
+    "demographics": [],
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Romance"
+    ],
+    "id": "111213",
+    "image": "https://cdn.myanimelist.net/images/manga/1/205549.jpg",
+    "published": "Jul 4, 2014 to May 6, 2016",
+    "serializations": [
+      "Naver Webtoon"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore",
+      "Psychological"
+    ],
+    "title": "Bastard",
+    "title_en": "Bastard",
+    "type": "Manhwa",
+    "url": "https://myanimelist.net/manga/111213/Bastard",
+    "volumes": "5"
+  },
+  "1133": {
+    "authors": [
+      [
+        "Hayashida, Q",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "190",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Horror"
+    ],
+    "id": "1133",
+    "image": "https://cdn.myanimelist.net/images/manga/3/258246.jpg",
+    "published": "Nov 30, 2000 to Sep 12, 2018",
+    "serializations": [
+      "Gessan"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore"
+    ],
+    "title": "Dorohedoro",
+    "title_en": "Dorohedoro",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/1133/Dorohedoro",
+    "volumes": "23"
+  },
+  "11514": {
+    "authors": [
+      [
+        "Mori, Kaoru",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Award Winning",
+      "Romance"
+    ],
+    "id": "11514",
+    "image": "https://cdn.myanimelist.net/images/manga/2/188950.jpg",
+    "published": "Oct 14, 2008 to ?",
+    "serializations": [
+      "Aokishi"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Historical"
+    ],
+    "title": "Otoyomegatari",
+    "title_en": "A Bride's Story",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/11514/Otoyomegatari",
+    "volumes": "Unknown"
+  },
+  "115688": {
+    "authors": [
+      [
+        "Hiramoto, Akira",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "41",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Ecchi"
+    ],
+    "id": "115688",
+    "image": "https://cdn.myanimelist.net/images/manga/3/215834.jpg",
+    "published": "Sep 25, 2018 to Aug 11, 2020",
+    "serializations": [
+      "Evening"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "RaW Hero",
+    "title_en": "RaW Hero",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/115688/RaW_Hero",
+    "volumes": "6"
+  },
+  "115730": {
+    "authors": [
+      [
+        "Soumatou",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Fantasy",
+      "Mystery"
+    ],
+    "id": "115730",
+    "image": "https://cdn.myanimelist.net/images/manga/2/215750.jpg",
+    "published": "Sep 6, 2018 to ?",
+    "serializations": [
+      "Young Jump"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Shadows House",
+    "title_en": "Shadows House",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/115730/Shadows_House",
+    "volumes": "Unknown"
+  },
+  "116778": {
+    "authors": [
+      [
+        "Fujimoto, Tatsuki",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "232",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Award Winning",
+      "Fantasy"
+    ],
+    "id": "116778",
+    "image": "https://cdn.myanimelist.net/images/manga/3/216464.jpg",
+    "published": "Dec 3, 2018 to Mar 25, 2026",
+    "serializations": [
+      "Shounen Jump+"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore",
+      "Urban Fantasy"
+    ],
+    "title": "Chainsaw Man",
+    "title_en": "Chainsaw Man",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/116778/Chainsaw_Man",
+    "volumes": "24"
+  },
+  "116790": {
+    "authors": [
+      [
+        "Izumi, Tomoki",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [],
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "id": "116790",
+    "image": "https://cdn.myanimelist.net/images/manga/3/217799.jpg",
+    "published": "Nov 2, 2018 to ?",
+    "serializations": [
+      "Web Comic Apanta"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Mieruko-chan",
+    "title_en": "Mieruko-chan",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/116790/Mieruko-chan",
+    "volumes": "Unknown"
+  },
   "118858": {
     "authors": [
       [
@@ -124,6 +703,123 @@
     "title_en": "Dai Dark",
     "type": "Manga",
     "url": "https://myanimelist.net/manga/118858/Dai_Dark",
+    "volumes": "Unknown"
+  },
+  "11896": {
+    "authors": [
+      [
+        "Touma, Rei",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "65",
+    "demographics": [
+      "Shoujo"
+    ],
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "id": "11896",
+    "image": "https://cdn.myanimelist.net/images/manga/3/272101.jpg",
+    "published": "Jan 24, 2009 to Jun 24, 2013",
+    "serializations": [
+      "Cheese!"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Reimei no Arcana",
+    "title_en": "Dawn of the Arcana",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/11896/Reimei_no_Arcana",
+    "volumes": "13"
+  },
+  "1268": {
+    "authors": [
+      [
+        "Yoon, Mi-Kyung",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "176",
+    "demographics": [
+      "Shoujo"
+    ],
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "id": "1268",
+    "image": "https://cdn.myanimelist.net/images/manga/2/15078.jpg",
+    "published": "Oct 17, 2007 to 2014",
+    "serializations": [
+      "Wink"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "The Bride of the Water God",
+    "title_en": "Bride of the Water God",
+    "type": "Manhwa",
+    "url": "https://myanimelist.net/manga/1268/The_Bride_of_the_Water_God",
+    "volumes": "24"
+  },
+  "131403": {
+    "authors": [
+      [
+        "Ishida, Sui",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "id": "131403",
+    "image": "https://cdn.myanimelist.net/images/manga/3/253495.jpg",
+    "published": "May 10, 2021 to ?",
+    "serializations": [
+      "Tonari no Young Jump"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Choujin X",
+    "title_en": "Choujin X",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/131403/Choujin_X",
+    "volumes": "Unknown"
+  },
+  "1320": {
+    "authors": [
+      [
+        "Chan, Mou",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "id": "1320",
+    "image": "https://cdn.myanimelist.net/images/manga/4/75197.jpg",
+    "published": "Jun 15, 2001 to ?",
+    "serializations": [],
+    "status": "Publishing",
+    "themes": [
+      "Historical",
+      "Military"
+    ],
+    "title": "The Ravages of Time",
+    "title_en": null,
+    "type": "Manhua",
+    "url": "https://myanimelist.net/manga/1320/The_Ravages_of_Time",
     "volumes": "Unknown"
   },
   "132912": {
@@ -157,6 +853,352 @@
     "type": "Manga",
     "url": "https://myanimelist.net/manga/132912/DRCL_Midnight_Children",
     "volumes": "Unknown"
+  },
+  "13801": {
+    "authors": [
+      [
+        "Hirano, Kouta",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "id": "13801",
+    "image": "https://cdn.myanimelist.net/images/manga/2/308712.jpg",
+    "published": "Apr 30, 2009 to ?",
+    "serializations": [
+      "Young King OURs"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Adult Cast",
+      "Historical",
+      "Isekai",
+      "Samurai"
+    ],
+    "title": "Drifters",
+    "title_en": "Drifters",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/13801/Drifters",
+    "volumes": "Unknown"
+  },
+  "1400": {
+    "authors": [
+      [
+        "Nihei, Tsutomu",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "13",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Supernatural"
+    ],
+    "id": "1400",
+    "image": "https://cdn.myanimelist.net/images/manga/3/171728.jpg",
+    "published": "May 19, 2005 to Mar 18, 2006",
+    "serializations": [
+      "Ultra Jump"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Abara",
+    "title_en": "Abara",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/1400/Abara",
+    "volumes": "2"
+  },
+  "1409": {
+    "authors": [
+      [
+        "Nihei, Tsutomu",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "43",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "id": "1409",
+    "image": "https://cdn.myanimelist.net/images/manga/2/211783.jpg",
+    "published": "Jun 14, 2004 to Jan 19, 2009",
+    "serializations": [
+      "Ultra Jump"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Biomega",
+    "title_en": "Biomega",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/1409/Biomega",
+    "volumes": "6"
+  },
+  "144180": {
+    "authors": [
+      [
+        "Urana, Kei",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "144180",
+    "image": "https://cdn.myanimelist.net/images/manga/1/259583.jpg",
+    "published": "Feb 16, 2022 to ?",
+    "serializations": [
+      "Shounen Magazine (Weekly)"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Gachiakuta",
+    "title_en": "Gachiakuta",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/144180/Gachiakuta",
+    "volumes": "Unknown"
+  },
+  "144241": {
+    "authors": [
+      [
+        "Torutonen",
+        "Story"
+      ],
+      [
+        "Saitou, Yanomi",
+        "Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "144241",
+    "image": "https://cdn.myanimelist.net/images/manga/3/269765.jpg",
+    "published": "Feb 17, 2022 to ?",
+    "serializations": [
+      "Shounen Magazine Edge"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Isekai",
+      "Military",
+      "Reincarnation"
+    ],
+    "title": "Nigoru Hitomi de Nani wo Negau: Highserk Senki",
+    "title_en": "Record of Highserk War",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/144241/Nigoru_Hitomi_de_Nani_wo_Negau__Highserk_Senki",
+    "volumes": "Unknown"
+  },
+  "14440": {
+    "authors": [
+      [
+        "Hanazawa, Kengo",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "264",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Award Winning",
+      "Drama",
+      "Horror"
+    ],
+    "id": "14440",
+    "image": "https://cdn.myanimelist.net/images/manga/1/121183.jpg",
+    "published": "Apr 20, 2009 to Feb 27, 2017",
+    "serializations": [
+      "Big Comic Spirits"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore",
+      "Psychological"
+    ],
+    "title": "I Am a Hero",
+    "title_en": "I Am a Hero",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/14440/I_Am_a_Hero",
+    "volumes": "22"
+  },
+  "145": {
+    "authors": [
+      [
+        "Sakuishi, Harold",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "103",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Award Winning",
+      "Drama",
+      "Romance"
+    ],
+    "id": "145",
+    "image": "https://cdn.myanimelist.net/images/manga/3/253274.jpg",
+    "published": "Feb 17, 2000 to Jun 5, 2008",
+    "serializations": [
+      "Shounen Magazine (Monthly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Music"
+    ],
+    "title": "Beck",
+    "title_en": "BECK: Mongolian Chop Squad",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/145/Beck",
+    "volumes": "34"
+  },
+  "146207": {
+    "authors": [
+      [
+        "Iwamune, Haruo",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "id": "146207",
+    "image": "https://cdn.myanimelist.net/images/manga/2/280024.jpg",
+    "published": "Mar 15, 2022 to ?",
+    "serializations": [
+      "Harta"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Usuzumi no Hate",
+    "title_en": "The Color of the End: Mission in the Apocalypse",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/146207/Usuzumi_no_Hate",
+    "volumes": "Unknown"
+  },
+  "1605": {
+    "authors": [
+      [
+        "Katou, Kotono",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "165",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Award Winning",
+      "Fantasy"
+    ],
+    "id": "1605",
+    "image": "https://cdn.myanimelist.net/images/manga/1/172104.jpg",
+    "published": "Jul 26, 2007 to Nov 25, 2023",
+    "serializations": [
+      "Shounen Sirius"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Military"
+    ],
+    "title": "Shoukoku no Altair",
+    "title_en": "Altair: A Record of Battles",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/1605/Shoukoku_no_Altair",
+    "volumes": "27"
+  },
+  "1618": {
+    "authors": [
+      [
+        "Ochi, Yoshihiko",
+        "Art"
+      ],
+      [
+        "Mizuno, Ryou",
+        "Story"
+      ]
+    ],
+    "chapters": "22",
+    "demographics": [],
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "id": "1618",
+    "image": "https://cdn.myanimelist.net/images/manga/3/135797.jpg",
+    "published": "1994 to 1998",
+    "serializations": [],
+    "status": "Finished",
+    "themes": [],
+    "title": "Lodoss-tou Senki: Haiiro no Majo",
+    "title_en": "Record of Lodoss War: The Grey Witch",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/1618/Lodoss-tou_Senki__Haiiro_no_Majo",
+    "volumes": "3"
+  },
+  "1621": {
+    "authors": [
+      [
+        "Mizuno, Ryou",
+        "Story"
+      ],
+      [
+        "Yamada, Akihiro",
+        "Art"
+      ]
+    ],
+    "chapters": "19",
+    "demographics": [],
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "id": "1621",
+    "image": "https://cdn.myanimelist.net/images/manga/5/340837.jpg",
+    "published": "1991 to 2001",
+    "serializations": [],
+    "status": "Finished",
+    "themes": [],
+    "title": "Lodoss-tou Senki: Pharis no Seijo",
+    "title_en": "Record of Lodoss War: The Lady of Pharis",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/1621/Lodoss-tou_Senki__Pharis_no_Seijo",
+    "volumes": "2"
   },
   "16765": {
     "authors": [
@@ -231,6 +1273,69 @@
     "url": "https://myanimelist.net/manga/2/Berserk",
     "volumes": "Unknown"
   },
+  "20593": {
+    "authors": [
+      [
+        "Inoue, Junya",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "125",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Suspense"
+    ],
+    "id": "20593",
+    "image": "https://cdn.myanimelist.net/images/manga/3/62199.jpg",
+    "published": "Jul 3, 2009 to Aug 9, 2018",
+    "serializations": [
+      "Comic@Bunch"
+    ],
+    "status": "Finished",
+    "themes": [
+      "High Stakes Game",
+      "Psychological",
+      "Survival"
+    ],
+    "title": "Btooom!",
+    "title_en": "Btooom!",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/20593/Btooom",
+    "volumes": "27"
+  },
+  "21525": {
+    "authors": [
+      [
+        "Kusanagi, Mizuho",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "292",
+    "demographics": [
+      "Shoujo"
+    ],
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "id": "21525",
+    "image": "https://cdn.myanimelist.net/images/manga/2/269202.jpg",
+    "published": "Aug 5, 2009 to Dec 19, 2025",
+    "serializations": [
+      "Hana to Yume"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Akatsuki no Yona",
+    "title_en": "Yona of the Dawn",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/21525/Akatsuki_no_Yona",
+    "volumes": "48"
+  },
   "23685": {
     "authors": [
       [
@@ -262,6 +1367,647 @@
     "type": "Manga",
     "url": "https://myanimelist.net/manga/23685/Wolfsmund",
     "volumes": "8"
+  },
+  "24637": {
+    "authors": [
+      [
+        "Kakizaki, Masasumi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "54",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "24637",
+    "image": "https://cdn.myanimelist.net/images/manga/2/141557.jpg",
+    "published": "Feb 9, 2011 to Dec 25, 2018",
+    "serializations": [
+      "Shounen Sunday Super"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical"
+    ],
+    "title": "Bestiarius",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/24637/Bestiarius",
+    "volumes": "7"
+  },
+  "24692": {
+    "authors": [
+      [
+        "Adachitoka",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "109",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "24692",
+    "image": "https://cdn.myanimelist.net/images/manga/3/161911.jpg",
+    "published": "Dec 6, 2010 to Jan 6, 2024",
+    "serializations": [
+      "Shounen Magazine (Monthly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Mythology"
+    ],
+    "title": "Noragami",
+    "title_en": "Noragami: Stray God",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/24692/Noragami",
+    "volumes": "27"
+  },
+  "26": {
+    "authors": [
+      [
+        "Togashi, Yoshihiro",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "id": "26",
+    "image": "https://cdn.myanimelist.net/images/manga/2/253119.jpg",
+    "published": "Mar 3, 1998 to ?",
+    "serializations": [
+      "Shounen Jump (Weekly)"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Hunter x Hunter",
+    "title_en": "Hunter x Hunter",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/26/Hunter_x_Hunter",
+    "volumes": "Unknown"
+  },
+  "267": {
+    "authors": [
+      [
+        "Hirano, Kouta",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "92",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Horror",
+      "Supernatural"
+    ],
+    "id": "267",
+    "image": "https://cdn.myanimelist.net/images/manga/3/267321.jpg",
+    "published": "Apr 30, 1997 to Sep 30, 2008",
+    "serializations": [
+      "Young King OURs"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Adult Cast",
+      "Gore",
+      "Historical",
+      "Vampire"
+    ],
+    "title": "Hellsing",
+    "title_en": "Hellsing",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/267/Hellsing",
+    "volumes": "10"
+  },
+  "2924": {
+    "authors": [
+      [
+        "Iwaaki, Hitoshi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Award Winning"
+    ],
+    "id": "2924",
+    "image": "https://cdn.myanimelist.net/images/manga/2/167504.jpg",
+    "published": "Jan 25, 2003 to ?",
+    "serializations": [
+      "Afternoon"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Historical"
+    ],
+    "title": "Historie",
+    "title_en": "Historié",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/2924/Historie",
+    "volumes": "Unknown"
+  },
+  "29799": {
+    "authors": [
+      [
+        "Kagano, Mihachi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "81",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "id": "29799",
+    "image": "https://cdn.myanimelist.net/images/manga/1/132419.jpg",
+    "published": "Mar 19, 2011 to Jan 19, 2018",
+    "serializations": [
+      "Ultra Jump"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical",
+      "Military"
+    ],
+    "title": "Ad Astra: Scipio to Hannibal",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/29799/Ad_Astra__Scipio_to_Hannibal",
+    "volumes": "13"
+  },
+  "3031": {
+    "authors": [
+      [
+        "Mochizuki, Jun",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "107",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Mystery"
+    ],
+    "id": "3031",
+    "image": "https://cdn.myanimelist.net/images/manga/2/169004.jpg",
+    "published": "May 18, 2006 to Mar 18, 2015",
+    "serializations": [
+      "GFantasy"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Pandora Hearts",
+    "title_en": "Pandora Hearts",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/3031/Pandora_Hearts",
+    "volumes": "24"
+  },
+  "32315": {
+    "authors": [
+      [
+        "Serizawa, Naoki",
+        "Art"
+      ],
+      [
+        "Capcom",
+        "Story"
+      ]
+    ],
+    "chapters": "41",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Horror"
+    ],
+    "id": "32315",
+    "image": "https://cdn.myanimelist.net/images/manga/1/298125.jpg",
+    "published": "Feb 23, 2012 to Sep 26, 2013",
+    "serializations": [
+      "Shounen Champion (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Military",
+      "Strategy Game"
+    ],
+    "title": "Biohazard: Marhawa Desire",
+    "title_en": "Resident Evil: Marhawa Desire",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/32315/Biohazard__Marhawa_Desire",
+    "volumes": "5"
+  },
+  "3500": {
+    "authors": [
+      [
+        "Takahashi, Osamu",
+        "Art"
+      ]
+    ],
+    "chapters": "133",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Ecchi"
+    ],
+    "id": "3500",
+    "image": "https://cdn.myanimelist.net/images/manga/1/172079.jpg",
+    "published": "Apr 26, 2005 to Feb 26, 2016",
+    "serializations": [
+      "Shounen Ace"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Harem",
+      "Mecha",
+      "School"
+    ],
+    "title": "Shinseiki Evangelion: Ikari Shinji Ikusei Keikaku",
+    "title_en": "Neon Genesis Evangelion: The Shinji Ikari Raising Project",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/3500/Shinseiki_Evangelion__Ikari_Shinji_Ikusei_Keikaku",
+    "volumes": "18"
+  },
+  "36099": {
+    "authors": [
+      [
+        "Kakizaki, Masasumi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "49",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Suspense"
+    ],
+    "id": "36099",
+    "image": "https://cdn.myanimelist.net/images/manga/1/65303.jpg",
+    "published": "Jun 13, 2011 to May 13, 2013",
+    "serializations": [
+      "Young Magazine (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical",
+      "Psychological"
+    ],
+    "title": "Green Blood",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/36099/Green_Blood",
+    "volumes": "5"
+  },
+  "3866": {
+    "authors": [
+      [
+        "Toboso, Yana",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Mystery",
+      "Supernatural"
+    ],
+    "id": "3866",
+    "image": "https://cdn.myanimelist.net/images/manga/3/248448.jpg",
+    "published": "Sep 16, 2006 to ?",
+    "serializations": [
+      "GFantasy"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Historical",
+      "Mythology"
+    ],
+    "title": "Kuroshitsuji",
+    "title_en": "Black Butler",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/3866/Kuroshitsuji",
+    "volumes": "Unknown"
+  },
+  "3868": {
+    "authors": [
+      [
+        "Yamaguchi, Takayuki",
+        "Art"
+      ],
+      [
+        "Nanjou, Norio",
+        "Story"
+      ]
+    ],
+    "chapters": "84",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "id": "3868",
+    "image": "https://cdn.myanimelist.net/images/manga/1/110081.jpg",
+    "published": "Jun 19, 2003 to Jul 17, 2010",
+    "serializations": [
+      "Champion RED"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore",
+      "Historical",
+      "Martial Arts",
+      "Samurai"
+    ],
+    "title": "Shigurui",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/3868/Shigurui",
+    "volumes": "15"
+  },
+  "3988": {
+    "authors": [
+      [
+        "Kikuchi, Hideyuki",
+        "Story"
+      ],
+      [
+        "Takaki, Saiko",
+        "Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Horror"
+    ],
+    "id": "3988",
+    "image": "https://cdn.myanimelist.net/images/manga/2/76275.jpg",
+    "published": "2007 to 2014",
+    "serializations": [
+      "Comic Flapper"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Vampire"
+    ],
+    "title": "Vampire Hunter D",
+    "title_en": "Hideyuki Kikuchi's Vampire Hunter D",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/3988/Vampire_Hunter_D",
+    "volumes": "8"
+  },
+  "418": {
+    "authors": [
+      [
+        "Urushibara, Yuki",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "50",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Award Winning",
+      "Fantasy",
+      "Mystery",
+      "Supernatural"
+    ],
+    "id": "418",
+    "image": "https://cdn.myanimelist.net/images/manga/2/159514.jpg",
+    "published": "Oct 8, 1999 to Aug 25, 2008",
+    "serializations": [
+      "Afternoon"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Adult Cast",
+      "Historical",
+      "Iyashikei"
+    ],
+    "title": "Mushishi",
+    "title_en": "Mushishi",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/418/Mushishi",
+    "volumes": "10"
+  },
+  "44347": {
+    "authors": [
+      [
+        "Murata, Yusuke",
+        "Art"
+      ],
+      [
+        "ONE",
+        "Story"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "id": "44347",
+    "image": "https://cdn.myanimelist.net/images/manga/3/80661.jpg",
+    "published": "Jun 14, 2012 to ?",
+    "serializations": [
+      "Tonari no Young Jump"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Adult Cast",
+      "Parody",
+      "Super Power"
+    ],
+    "title": "One Punch-Man",
+    "title_en": "One-Punch Man",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/44347/One_Punch-Man",
+    "volumes": "Unknown"
+  },
+  "44489": {
+    "authors": [
+      [
+        "Ichikawa, Haruko",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "108",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy"
+    ],
+    "id": "44489",
+    "image": "https://cdn.myanimelist.net/images/manga/1/115443.jpg",
+    "published": "Oct 25, 2012 to Apr 25, 2024",
+    "serializations": [
+      "Afternoon"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Anthropomorphic"
+    ],
+    "title": "Houseki no Kuni",
+    "title_en": "Land of the Lustrous",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/44489/Houseki_no_Kuni",
+    "volumes": "13"
+  },
+  "49865": {
+    "authors": [
+      [
+        "Sakurai, Gamon",
+        "Story & Art"
+      ],
+      [
+        "Miura, Tsuina",
+        "Story"
+      ]
+    ],
+    "chapters": "84",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Horror",
+      "Mystery",
+      "Supernatural"
+    ],
+    "id": "49865",
+    "image": "https://cdn.myanimelist.net/images/manga/3/307700.jpg",
+    "published": "Jul 6, 2012 to Feb 5, 2021",
+    "serializations": [
+      "good! Afternoon"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore"
+    ],
+    "title": "Ajin",
+    "title_en": "Ajin: Demi-Human",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/49865/Ajin",
+    "volumes": "17"
+  },
+  "50": {
+    "authors": [
+      [
+        "Takei, Hiroyuki",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "288",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Supernatural"
+    ],
+    "id": "50",
+    "image": "https://cdn.myanimelist.net/images/manga/2/255376.jpg",
+    "published": "Jun 30, 1998 to Aug 30, 2004",
+    "serializations": [
+      "Shounen Jump (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Super Power"
+    ],
+    "title": "Shaman King",
+    "title_en": "Shaman King",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/50/Shaman_King",
+    "volumes": "32"
+  },
+  "5015": {
+    "authors": [
+      [
+        "Otomo, Katsuhiro",
+        "Story"
+      ],
+      [
+        "Nagayasu, Takumi",
+        "Art"
+      ]
+    ],
+    "chapters": "60",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "id": "5015",
+    "image": "https://cdn.myanimelist.net/images/manga/2/105847.jpg",
+    "published": "Oct 1990 to May 2004",
+    "serializations": [
+      "Young Magazine (Monthly)"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Sarah: The Legend of Mother Sarah",
+    "title_en": "The Legend of Mother Sarah",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/5015/Sarah__The_Legend_of_Mother_Sarah",
+    "volumes": "7"
   },
   "51233": {
     "authors": [
@@ -298,6 +2044,107 @@
     "type": "Manga",
     "url": "https://myanimelist.net/manga/51233/Arslan_Senki",
     "volumes": "Unknown"
+  },
+  "556": {
+    "authors": [
+      [
+        "Sunao, Yoshida",
+        "Story"
+      ],
+      [
+        "Kyuujou, Kiyo",
+        "Art"
+      ]
+    ],
+    "chapters": "89",
+    "demographics": [
+      "Shoujo"
+    ],
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "id": "556",
+    "image": "https://cdn.myanimelist.net/images/manga/1/164661.jpg",
+    "published": "Aug 23, 2003 to Apr 24, 2018",
+    "serializations": [
+      "Asuka"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Vampire"
+    ],
+    "title": "Trinity Blood",
+    "title_en": "Trinity Blood",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/556/Trinity_Blood",
+    "volumes": "21"
+  },
+  "5806": {
+    "authors": [
+      [
+        "Kigitsu, Katsuhisa",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "71",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Supernatural"
+    ],
+    "id": "5806",
+    "image": "https://cdn.myanimelist.net/images/manga/1/150351.jpg",
+    "published": "Jul 19, 2006 to Jan 19, 2012",
+    "serializations": [
+      "Champion RED"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore",
+      "Psychological"
+    ],
+    "title": "Franken Fran",
+    "title_en": "Franken Fran",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/5806/Franken_Fran",
+    "volumes": "8"
+  },
+  "58563": {
+    "authors": [
+      [
+        "Sakamoto, Shinichi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "99",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "id": "58563",
+    "image": "https://cdn.myanimelist.net/images/manga/1/275351.jpg",
+    "published": "Jan 31, 2013 to Apr 16, 2015",
+    "serializations": [
+      "Young Jump"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical"
+    ],
+    "title": "Innocent",
+    "title_en": "Innocent",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/58563/Innocent",
+    "volumes": "9"
   },
   "62887": {
     "authors": [
@@ -401,6 +2248,100 @@
     "url": "https://myanimelist.net/manga/651/Kaze_no_Tani_no_Nausica%C3%A4",
     "volumes": "7"
   },
+  "65705": {
+    "authors": [
+      [
+        "Yoshimura, Kana",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Girls Love"
+    ],
+    "id": "65705",
+    "image": "https://cdn.myanimelist.net/images/manga/1/123541.jpg",
+    "published": "Apr 19, 2013 to ?",
+    "serializations": [
+      "Young Gangan"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Gore"
+    ],
+    "title": "Murciélago",
+    "title_en": "Murciélago",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/65705/Murci%C3%A9lago",
+    "volumes": "Unknown"
+  },
+  "668": {
+    "authors": [
+      [
+        "Shirow, Masamune",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "25",
+    "demographics": [],
+    "genres": [
+      "Award Winning",
+      "Sci-Fi"
+    ],
+    "id": "668",
+    "image": "https://cdn.myanimelist.net/images/manga/1/260365.jpg",
+    "published": "Feb 15, 1985 to Mar 15, 1989",
+    "serializations": [
+      "Comic Gaia"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Appleseed",
+    "title_en": "Appleseed",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/668/Appleseed",
+    "volumes": "4"
+  },
+  "698": {
+    "authors": [
+      [
+        "Sadamoto, Yoshiyuki",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "97",
+    "demographics": [
+      "Seinen",
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Suspense"
+    ],
+    "id": "698",
+    "image": "https://cdn.myanimelist.net/images/manga/1/145061.jpg",
+    "published": "Dec 26, 1994 to Jun 4, 2013",
+    "serializations": [
+      "Young Ace"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Mecha",
+      "Psychological"
+    ],
+    "title": "Shinseiki Evangelion",
+    "title_en": "Neon Genesis Evangelion",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/698/Shinseiki_Evangelion",
+    "volumes": "14"
+  },
   "70": {
     "authors": [
       [
@@ -430,6 +2371,359 @@
     "type": "Manga",
     "url": "https://myanimelist.net/manga/70/%C3%9Cbel_Blatt",
     "volumes": "23"
+  },
+  "703": {
+    "authors": [
+      [
+        "Nightow, Yasuhiro",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "22",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "id": "703",
+    "image": "https://cdn.myanimelist.net/images/manga/3/153055.jpg",
+    "published": "Apr 22, 1995 to Jan 22, 1997",
+    "serializations": [
+      "Shounen Captain"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Adult Cast"
+    ],
+    "title": "Trigun",
+    "title_en": "Trigun",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/703/Trigun",
+    "volumes": "3"
+  },
+  "704": {
+    "authors": [
+      [
+        "Nightow, Yasuhiro",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "102",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Award Winning",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "id": "704",
+    "image": "https://cdn.myanimelist.net/images/manga/3/55331.jpg",
+    "published": "Sep 30, 1997 to Mar 30, 2007",
+    "serializations": [
+      "Young King OURs"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Adult Cast"
+    ],
+    "title": "Trigun Maximum",
+    "title_en": "Trigun Maximum",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/704/Trigun_Maximum",
+    "volumes": "14"
+  },
+  "72025": {
+    "authors": [
+      [
+        "Daromeon",
+        "Art"
+      ],
+      [
+        "Sandrovich, Yabako",
+        "Story"
+      ]
+    ],
+    "chapters": "256",
+    "demographics": [],
+    "genres": [
+      "Action"
+    ],
+    "id": "72025",
+    "image": "https://cdn.myanimelist.net/images/manga/1/210808.jpg",
+    "published": "Apr 18, 2012 to Aug 23, 2018",
+    "serializations": [
+      "Ura Sunday"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Martial Arts"
+    ],
+    "title": "Kengan Ashura",
+    "title_en": "Kengan Ashura",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/72025/Kengan_Ashura",
+    "volumes": "27"
+  },
+  "731": {
+    "authors": [
+      [
+        "Endo, Hiroki",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "127",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi",
+      "Suspense"
+    ],
+    "id": "731",
+    "image": "https://cdn.myanimelist.net/images/manga/2/63117.jpg",
+    "published": "Sep 25, 1997 to Jun 25, 2008",
+    "serializations": [
+      "Afternoon"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Gore",
+      "Psychological"
+    ],
+    "title": "Eden: It's an Endless World!",
+    "title_en": "Eden: It's an Endless World!",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/731/Eden__Its_an_Endless_World",
+    "volumes": "18"
+  },
+  "735": {
+    "authors": [
+      [
+        "Hiroe, Rei",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "id": "735",
+    "image": "https://cdn.myanimelist.net/images/manga/1/227037.jpg",
+    "published": "Apr 19, 2002 to ?",
+    "serializations": [
+      "Sunday Gene-X"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Adult Cast",
+      "Military",
+      "Organized Crime"
+    ],
+    "title": "Black Lagoon",
+    "title_en": "Black Lagoon",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/735/Black_Lagoon",
+    "volumes": "Unknown"
+  },
+  "75929": {
+    "authors": [
+      [
+        "Ookubo, Kei",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [],
+    "id": "75929",
+    "image": "https://cdn.myanimelist.net/images/manga/3/131495.jpg",
+    "published": "Oct 25, 2013 to ?",
+    "serializations": [
+      "Comic Zenon"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Historical",
+      "Visual Arts"
+    ],
+    "title": "Arte",
+    "title_en": "Arte",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/75929/Arte",
+    "volumes": "Unknown"
+  },
+  "768": {
+    "authors": [
+      [
+        "Kishiro, Yukito",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "53",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "id": "768",
+    "image": "https://cdn.myanimelist.net/images/manga/3/274715.jpg",
+    "published": "Nov 1990 to Mar 1995",
+    "serializations": [
+      "Business Jump"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Gunnm",
+    "title_en": "Battle Angel Alita",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/768/Gunnm",
+    "volumes": "9"
+  },
+  "78795": {
+    "authors": [
+      [
+        "Ohtsuka, Tommy",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "50",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "id": "78795",
+    "image": "https://cdn.myanimelist.net/images/manga/3/136319.jpg",
+    "published": "Aug 5, 2010 to Dec 4, 2015",
+    "serializations": [
+      "Comic Flapper"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical"
+    ],
+    "title": "Hawkwood",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/78795/Hawkwood",
+    "volumes": "8"
+  },
+  "80841": {
+    "authors": [
+      [
+        "Kashiki, Takuto",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "id": "80841",
+    "image": "https://cdn.myanimelist.net/images/manga/3/140571.jpg",
+    "published": "Apr 30, 2011 to ?",
+    "serializations": [
+      "Harta"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Iyashikei"
+    ],
+    "title": "Hakumei to Mikochi",
+    "title_en": "Hakumei and Mikochi",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/80841/Hakumei_to_Mikochi",
+    "volumes": "Unknown"
+  },
+  "81667": {
+    "authors": [
+      [
+        "Miyama, Fugin",
+        "Art"
+      ],
+      [
+        "Maruyama, Kugane",
+        "Story"
+      ]
+    ],
+    "chapters": "91",
+    "demographics": [],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "81667",
+    "image": "https://cdn.myanimelist.net/images/manga/3/161407.jpg",
+    "published": "Nov 26, 2014 to May 25, 2023",
+    "serializations": [
+      "Comp Ace"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Isekai"
+    ],
+    "title": "Overlord",
+    "title_en": "Overlord",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/81667/Overlord",
+    "volumes": "19"
+  },
+  "84649": {
+    "authors": [
+      [
+        "Serizawa, Naoki",
+        "Art"
+      ],
+      [
+        "Capcom",
+        "Story"
+      ]
+    ],
+    "chapters": "50",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Horror"
+    ],
+    "id": "84649",
+    "image": "https://cdn.myanimelist.net/images/manga/1/164464.jpg",
+    "published": "Jan 15, 2015 to Feb 2, 2017",
+    "serializations": [
+      "Shounen Champion (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Strategy Game"
+    ],
+    "title": "Biohazard: Heavenly Island",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/84649/Biohazard__Heavenly_Island",
+    "volumes": "5"
   },
   "85781": {
     "authors": [
@@ -494,5 +2788,482 @@
     "type": "Manga",
     "url": "https://myanimelist.net/manga/85968/Golden_Kamuy",
     "volumes": "31"
+  },
+  "87609": {
+    "authors": [
+      [
+        "Kawakami, Taiki",
+        "Art"
+      ],
+      [
+        "Fuse",
+        "Story"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Award Winning",
+      "Fantasy"
+    ],
+    "id": "87609",
+    "image": "https://cdn.myanimelist.net/images/manga/3/167639.jpg",
+    "published": "Mar 26, 2015 to ?",
+    "serializations": [
+      "Shounen Sirius"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Isekai",
+      "Reincarnation"
+    ],
+    "title": "Tensei shitara Slime Datta Ken",
+    "title_en": "That Time I Got Reincarnated as a Slime",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/87609/Tensei_shitara_Slime_Datta_Ken",
+    "volumes": "Unknown"
+  },
+  "8848": {
+    "authors": [
+      [
+        "Boichi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "181",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Ecchi"
+    ],
+    "id": "8848",
+    "image": "https://cdn.myanimelist.net/images/manga/3/166298.jpg",
+    "published": "Apr 24, 2006 to Feb 22, 2016",
+    "serializations": [
+      "Young King"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Sun-Ken Rock",
+    "title_en": "Sun-Ken Rock",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/8848/Sun-Ken_Rock",
+    "volumes": "25"
+  },
+  "89734": {
+    "authors": [
+      [
+        "Toriyama, Akira",
+        "Story"
+      ],
+      [
+        "Toyotarou",
+        "Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "id": "89734",
+    "image": "https://cdn.myanimelist.net/images/manga/2/176933.jpg",
+    "published": "Jun 20, 2015 to ?",
+    "serializations": [
+      "V-Jump"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Martial Arts",
+      "Super Power"
+    ],
+    "title": "Dragon Ball Super",
+    "title_en": "Dragon Ball Super",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/89734/Dragon_Ball_Super",
+    "volumes": "Unknown"
+  },
+  "904": {
+    "authors": [
+      [
+        "Koike, Kazuo",
+        "Story"
+      ],
+      [
+        "Kojima, Goseki",
+        "Art"
+      ]
+    ],
+    "chapters": "142",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "id": "904",
+    "image": "https://cdn.myanimelist.net/images/manga/1/159264.jpg",
+    "published": "Sep 1970 to Apr 1976",
+    "serializations": [
+      "Manga Action"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical",
+      "Samurai"
+    ],
+    "title": "Kozure Ookami",
+    "title_en": "Lone Wolf & Cub",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/904/Kozure_Ookami",
+    "volumes": "28"
+  },
+  "91037": {
+    "authors": [
+      [
+        "Ookubo, Atsushi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "305",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "id": "91037",
+    "image": "https://cdn.myanimelist.net/images/manga/3/178996.jpg",
+    "published": "Sep 23, 2015 to Feb 22, 2022",
+    "serializations": [
+      "Shounen Magazine (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Urban Fantasy"
+    ],
+    "title": "Enen no Shouboutai",
+    "title_en": "Fire Force",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/91037/Enen_no_Shouboutai",
+    "volumes": "34"
+  },
+  "93350": {
+    "authors": [
+      [
+        "Zhang, Jing",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "11",
+    "demographics": [],
+    "genres": [
+      "Drama"
+    ],
+    "id": "93350",
+    "image": "https://cdn.myanimelist.net/images/manga/2/164927.jpg",
+    "published": "Dec 1, 2012",
+    "serializations": [],
+    "status": "Finished",
+    "themes": [],
+    "title": "Ayeshah's Secret",
+    "title_en": null,
+    "type": "Manhua",
+    "url": "https://myanimelist.net/manga/93350/Ayeshahs_Secret",
+    "volumes": "2"
+  },
+  "93699": {
+    "authors": [
+      [
+        "Sakamoto, Shinichi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "88",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Award Winning",
+      "Drama"
+    ],
+    "id": "93699",
+    "image": "https://cdn.myanimelist.net/images/manga/1/167646.jpg",
+    "published": "May 20, 2015 to Jan 8, 2020",
+    "serializations": [
+      "Grand Jump"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical"
+    ],
+    "title": "Innocent Rouge",
+    "title_en": "Innocent Rouge",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/93699/Innocent_Rouge",
+    "volumes": "12"
+  },
+  "93753": {
+    "authors": [
+      [
+        "Mochizuki, Jun",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Fantasy"
+    ],
+    "id": "93753",
+    "image": "https://cdn.myanimelist.net/images/manga/2/176009.jpg",
+    "published": "Dec 22, 2015 to ?",
+    "serializations": [
+      "Gangan Joker"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Historical",
+      "Urban Fantasy",
+      "Vampire"
+    ],
+    "title": "Vanitas no Karte",
+    "title_en": "The Case Study of Vanitas",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/93753/Vanitas_no_Karte",
+    "volumes": "Unknown"
+  },
+  "93972": {
+    "authors": [
+      [
+        "Nagabe",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "53",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Fantasy"
+    ],
+    "id": "93972",
+    "image": "https://cdn.myanimelist.net/images/manga/1/173926.jpg",
+    "published": "Sep 5, 2015 to Mar 5, 2021",
+    "serializations": [
+      "Comic Garden"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Totsukuni no Shoujo",
+    "title_en": "The Girl From the Other Side: Siúil, a Rún",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/93972/Totsukuni_no_Shoujo",
+    "volumes": "11"
+  },
+  "95452": {
+    "authors": [
+      [
+        "Gureishi, Yako",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "39",
+    "demographics": [],
+    "genres": [
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "id": "95452",
+    "image": "https://cdn.myanimelist.net/images/manga/1/171808.jpg",
+    "published": "Apr 26, 2015 to Oct 25, 2019",
+    "serializations": [
+      "Web Comic Zenyon"
+    ],
+    "status": "Discontinued",
+    "themes": [
+      "Childcare"
+    ],
+    "title": "Somali to Mori no Kamisama",
+    "title_en": "Somali and the Forest Spirit",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/95452/Somali_to_Mori_no_Kamisama",
+    "volumes": "6"
+  },
+  "96792": {
+    "authors": [
+      [
+        "Gotouge, Koyoharu",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "207",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "96792",
+    "image": "https://cdn.myanimelist.net/images/manga/3/179023.jpg",
+    "published": "Feb 15, 2016 to May 18, 2020",
+    "serializations": [
+      "Shounen Jump (Weekly)"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Historical"
+    ],
+    "title": "Kimetsu no Yaiba",
+    "title_en": "Demon Slayer: Kimetsu no Yaiba",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/96792/Kimetsu_no_Yaiba",
+    "volumes": "23"
+  },
+  "974": {
+    "authors": [
+      [
+        "Tamura, Yumi",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "112",
+    "demographics": [
+      "Shoujo"
+    ],
+    "genres": [
+      "Adventure",
+      "Award Winning",
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "id": "974",
+    "image": "https://cdn.myanimelist.net/images/manga/1/185359.jpg",
+    "published": "Aug 11, 1990 to May 13, 1998",
+    "serializations": [
+      "Betsucomi"
+    ],
+    "status": "Finished",
+    "themes": [],
+    "title": "Basara",
+    "title_en": "Basara",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/974/Basara",
+    "volumes": "27"
+  },
+  "98436": {
+    "authors": [
+      [
+        "Toujou, Chika",
+        "Art"
+      ],
+      [
+        "Zen, Carlo",
+        "Story"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "98436",
+    "image": "https://cdn.myanimelist.net/images/manga/3/186468.jpg",
+    "published": "Apr 26, 2016 to ?",
+    "serializations": [
+      "Comp Ace"
+    ],
+    "status": "Publishing",
+    "themes": [
+      "Isekai",
+      "Military",
+      "Reincarnation"
+    ],
+    "title": "Youjo Senki",
+    "title_en": "The Saga of Tanya the Evil",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/98436/Youjo_Senki",
+    "volumes": "Unknown"
+  },
+  "98720": {
+    "authors": [
+      [
+        "Kurose, Kousuke",
+        "Art"
+      ],
+      [
+        "Kagyuu, Kumo",
+        "Story"
+      ]
+    ],
+    "chapters": "Unknown",
+    "demographics": [
+      "Seinen"
+    ],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "id": "98720",
+    "image": "https://cdn.myanimelist.net/images/manga/1/183163.jpg",
+    "published": "May 25, 2016 to ?",
+    "serializations": [
+      "Big Gangan"
+    ],
+    "status": "Publishing",
+    "themes": [],
+    "title": "Goblin Slayer",
+    "title_en": "Goblin Slayer",
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/98720/Goblin_Slayer",
+    "volumes": "Unknown"
+  },
+  "99982": {
+    "authors": [
+      [
+        "Shibata, Yuusaku",
+        "Story & Art"
+      ]
+    ],
+    "chapters": "4",
+    "demographics": [
+      "Shounen"
+    ],
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "id": "99982",
+    "image": "https://cdn.myanimelist.net/images/manga/1/186433.jpg",
+    "published": "Jul 20, 2016 to Oct 20, 2016",
+    "serializations": [
+      "Jump GIGA"
+    ],
+    "status": "Finished",
+    "themes": [
+      "Samurai"
+    ],
+    "title": "Hanazamurai no Sahara",
+    "title_en": null,
+    "type": "Manga",
+    "url": "https://myanimelist.net/manga/99982/Hanazamurai_no_Sahara",
+    "volumes": "1"
   }
 }
