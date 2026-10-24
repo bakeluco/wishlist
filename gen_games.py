@@ -113,6 +113,18 @@ manga is seen, then cached in manga_cache.json so re-running the script
 doesn't hit MAL again. Delete an entry from that cache (or pass
 --refresh-manga to re-fetch everything) to pick up changes on MAL, e.g. a
 series moving from "Publishing" to "Finished".
+
+
+HOW pc_port.txt WORKS
+======================
+Brand headers use two dashes, console headers use one. Each port is a
+title, an optional "|", then the repo URL. Lines of "=" are ignored.
+
+    --NINTENDO--
+    -Gamecube-
+    Metroid Prime 1 | https://github.com/Odrannnn/MetroidPrimePort
+
+Shown in the "PC Ports" tab as brand → console → linked list of repos.
 """
 
 import re, json, os, sys, time, html as html_lib, urllib.request, urllib.error
@@ -123,6 +135,8 @@ OUTPUT = os.path.join(os.path.dirname(__file__), 'index.html')
 MANGA_INPUT = os.path.join(os.path.dirname(__file__), 'manga.txt')
 MANGA_CACHE = os.path.join(os.path.dirname(__file__), 'manga_cache.json')
 MAL_URL_RE  = re.compile(r'myanimelist\.net/manga/(\d+)(?:/([^/?\s]*))?')
+
+PORTS_INPUT = os.path.join(os.path.dirname(__file__), 'pc_port.txt')
 
 def parse_badges(s):
     b, l = [], s.lower()
@@ -325,6 +339,31 @@ def build_manga_data(refresh=False):
     return result
 
 
+def parse_ports():
+    """Read pc_port.txt -> ordered list of {brand, console, title, url}."""
+    if not os.path.exists(PORTS_INPUT):
+        return []
+    ports, brand, console = [], None, None
+    with open(PORTS_INPUT, encoding='utf-8') as f:
+        for raw in f:
+            s = raw.strip()
+            if not s or re.match(r'^=+$', s): continue
+
+            # Brand header: "--NINTENDO--"
+            m = re.match(r'^--+\s*(.+?)\s*--+$', s)
+            if m: brand, console = m.group(1), None; continue
+            # Console header: "-N64-"
+            m = re.match(r'^-\s*(.+?)\s*-$', s)
+            if m: console = m.group(1); continue
+
+            m = re.search(r'https?://\S+', s)
+            if not m: continue
+            title = s[:m.start()].strip().rstrip('|').strip()
+            ports.append({'brand': brand or 'Other', 'console': console or 'Other',
+                          'title': title or m.group(0), 'url': m.group(0)})
+    return ports
+
+
 TEMPLATE = '''\
 <!DOCTYPE html>
 <html lang="en">
@@ -373,7 +412,7 @@ main{padding:22px 16px;max-width:1900px;margin:0 auto}
 .tge{background:#0c1c2e;color:#3888c0;border:1px solid #163854}
 .tth{background:#1c1030;color:#8858c8;border:1px solid #301a54}
 .tdm{background:#20140a;color:#c08838;border:1px solid #402a12}
-.sec.hi,.card.hi{display:none}
+.sec.hi,.sub.hi,.card.hi{display:none}
 #nope{text-align:center;padding:80px;color:#282840;font-size:1rem;display:none}
 .tabs{display:flex;gap:6px}
 .tab{padding:6px 14px;border-radius:8px;border:1px solid #2c2c48;background:#191926;color:#606080;cursor:pointer;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;transition:all .15s;user-select:none}
@@ -384,6 +423,15 @@ main{padding:22px 16px;max-width:1900px;margin:0 auto}
 .minfo{font-size:.68rem;color:#7878a0;line-height:1.5}
 .minfo b{color:#9a9ac8;font-weight:700}
 .mauth{font-size:.65rem;color:#585884;line-height:1.4}
+#main-ports .sec-hd h2{font-size:.95rem;color:#6a6aa8}
+.sub{margin-bottom:18px}
+.sub-hd{display:flex;align-items:baseline;gap:8px;margin-bottom:7px}
+.sub-hd h3{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#50507e}
+.sub-n{font-size:.65rem;color:#28283a}
+.plist{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:6px}
+.prow{padding:8px 10px;gap:2px;text-decoration:none}
+.prow:hover{border-color:#383860;background:#151528}
+.purl{font-size:.68rem;color:#4a5a90;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -392,6 +440,7 @@ main{padding:22px 16px;max-width:1900px;margin:0 auto}
   <div class="tabs">
     <button class="tab on" data-tab="games">Games</button>
     <button class="tab" data-tab="manga">Manga</button>
+    <button class="tab" data-tab="ports">PC Ports</button>
   </div>
   <input id="search" type="text" placeholder="search title, category, badge… (owned · denuvo · played · ps1)" autocomplete="off" spellcheck="false">
   <div class="qw" id="qw-games">
@@ -413,11 +462,13 @@ main{padding:22px 16px;max-width:1900px;margin:0 auto}
 </header>
 <main id="main-games"></main>
 <main id="main-manga" style="display:none"></main>
+<main id="main-ports" style="display:none"></main>
 <div id="nope">No games found.</div>
 
 <script>
 const G = __GAMES_DATA__;
 const M = __MANGA_DATA__;
+const P = __PORTS_DATA__;
 
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 
@@ -554,8 +605,49 @@ ${authors?`<div class="mauth">${esc(authors)}</div>`:''}
   }
 }
 
+const portMap = new Map();
+for(const p of P){
+  if(!portMap.has(p.brand)) portMap.set(p.brand,new Map());
+  const cons = portMap.get(p.brand);
+  if(!cons.has(p.console)) cons.set(p.console,[]);
+  cons.get(p.console).push(p);
+}
+
+function portLabel(url){
+  return url.replace(/^https?:\\/\\/(www\\.)?/,'').replace(/\\/+$/,'');
+}
+
+function buildPortsDOM(){
+  let html='';
+  for(const [brand,cons] of portMap){
+    let subs='', total=0;
+    for(const [con,items] of cons){
+      total += items.length;
+      const rows = items.map(p=>`<a class="card prow" href="${esc(p.url)}" target="_blank" rel="noopener">
+<span class="ct">${esc(p.title)}</span><span class="purl">${esc(portLabel(p.url))}</span>
+</a>`).join('');
+      subs += `<div class="sub">
+<div class="sub-hd"><h3>${esc(con)}</h3><span class="sub-n">${items.length}</span></div>
+<div class="plist">${rows}</div>
+</div>`;
+    }
+    html += `<section class="sec" data-cat="${esc(brand)}">
+<div class="sec-hd"><h2>${esc(brand)}</h2><span class="sec-n">${total}</span></div>
+${subs}
+</section>`;
+  }
+  document.getElementById('main-ports').innerHTML = html;
+
+  const flat = [...portMap.values()].flatMap(cons=>[...cons.values()].flat());
+  document.querySelectorAll('#main-ports .card').forEach((el,i)=>{
+    const p = flat[i];
+    el._s = [p.title,p.brand,p.console,p.url].join(' ').toLowerCase();
+  });
+}
+
 buildGamesDOM();
 buildMangaDOM();
+buildPortsDOM();
 
 let activeTab='games', qfGames='', qfManga='';
 
@@ -569,6 +661,11 @@ function doFilter(containerSel,text,quick,label){
       card.classList.toggle('hi',!match);
       if(match) n++;
     }
+    for(const sub of sec.querySelectorAll('.sub')){
+      const k=sub.querySelectorAll('.card:not(.hi)').length;
+      sub.classList.toggle('hi',k===0);
+      sub.querySelector('.sub-n').textContent=k;
+    }
     sec.classList.toggle('hi',n===0);
     const el=sec.querySelector('.sec-n');
     if(el) el.textContent=n;
@@ -580,8 +677,15 @@ function doFilter(containerSel,text,quick,label){
 
 function refresh(){
   if(activeTab==='games') doFilter('#main-games',inp.value,qfGames,'games');
-  else doFilter('#main-manga',inp.value,qfManga,'manga');
+  else if(activeTab==='manga') doFilter('#main-manga',inp.value,qfManga,'manga');
+  else doFilter('#main-ports',inp.value,'','ports');
 }
+
+const placeholders={
+  games:'search title, category, badge… (owned · denuvo · played · ps1)',
+  manga:'search title, genre, theme, author, status…',
+  ports:'search title, brand, console, repo…',
+};
 
 const inp=document.getElementById('search');
 inp.addEventListener('input',refresh);
@@ -608,13 +712,12 @@ document.querySelectorAll('.tab').forEach(btn=>{
     document.querySelectorAll('.tab').forEach(b=>b.classList.remove('on'));
     btn.classList.add('on');
     activeTab=btn.dataset.tab;
-    document.getElementById('main-games').style.display=activeTab==='games'?'':'none';
-    document.getElementById('main-manga').style.display=activeTab==='manga'?'':'none';
-    document.getElementById('qw-games').style.display=activeTab==='games'?'':'none';
-    document.getElementById('qw-manga').style.display=activeTab==='manga'?'':'none';
-    inp.placeholder=activeTab==='games'
-      ? 'search title, category, badge… (owned · denuvo · played · ps1)'
-      : 'search title, genre, theme, author, status…';
+    for(const t of ['games','manga','ports']){
+      document.getElementById('main-'+t).style.display=activeTab===t?'':'none';
+      const qw=document.getElementById('qw-'+t);
+      if(qw) qw.style.display=activeTab===t?'':'none';
+    }
+    inp.placeholder=placeholders[activeTab];
     refresh();
   });
 });
@@ -639,8 +742,12 @@ def main():
     manga = build_manga_data(refresh=refresh_manga)
     print(f'Parsed {len(manga)} manga')
 
+    ports = parse_ports()
+    print(f'Parsed {len(ports)} PC ports')
+
     html = TEMPLATE.replace('__GAMES_DATA__', json.dumps(games, ensure_ascii=False))
     html = html.replace('__MANGA_DATA__', json.dumps(manga, ensure_ascii=False))
+    html = html.replace('__PORTS_DATA__', json.dumps(ports, ensure_ascii=False))
     with open(OUTPUT, 'w', encoding='utf-8') as f:
         f.write(html)
     print(f'\nWrote: {OUTPUT}')

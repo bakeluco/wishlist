@@ -1,0 +1,101 @@
+============
+--NINTENDO--
+============
+
+-N64-
+Conker's Bad Fur Day (US Version) | https://github.com/sciaschi/CBFD-Recompiled
+
+-Gamecube-
+Luigi’s Mansion 1 | https://github.com/rob646464/luigis-mansion-pc-port 
+Metroid Prime 1 | https://github.com/Odrannnn/MetroidPrimePort 
+Super Mario Sunshine https://github.com/chasem-dev/sms-pc-port 
+Super Mario Sunshine (GameCube, North America, GMSE01) | https://github.com/TekRantGaming/sms-pc-port
+Pikmin 1 | https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port 
+Eternal Darkness: Sanity's Requiem (2002) | https://github.com/griches/EternalDarknessRecomp
+Star Fox Adventures | https://github.com/JackPriceBurns/foxhollow
+
+-DS-
+Super Mario 64 | https://tangos.dev/downloads
+
+-3DS-
+The Legend of Zelda: Ocarina of Time 3D | https://github.com/coccofresco/TriAevum
+
+-Wii U-
+The Legend of Zelda: The Wind Waker HD | https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp
+
+-Switch-
+The Legend of Zelda: Link's Awakening (2019) https://github.com/peiikai/LASRecomp
+
+=========
+--SONY--
+=========
+
+-PS2-
+Sly Cooper and the Thievius Raccoonus 1 | https://github.com/theclub654/ProjectCane
+Fatal Frame 1 | https://github.com/Mikompilation/Himuro
+Fatal Frame 1 | https://github.com/Mikompilation/MikuPan
+Ratchet & Clank (2002) | https://github.com/re-rac/rerac-launcher
+ICO (2001) | https://github.com/nathanialf/ico-pc
+
+-PS3-
+Infamous 1 | https://github.com/whompay/inFAMOUSreborn
+
+-PS4-
+God of War 3 Remastered 2015 | https://github.com/FelipePrado0/SpartanPort
+God of War 3 Remastered 2015 | https://github.com/FelipePrado0/gow3_pc
+God of War 3 Remastered 2015 | https://github.com/R-V-L/gow3_pc
+Killzone Shadow Fall | https://github.com/lesca-191204/killzone-shadowfall-pc 
+Shadow of the Colossus 2018 | https://github.com/AjncSystem/ShadowOfTheColossus-PC
+Uncharted: The Nathan Drake Collection ( 1, 2, 3 ) 2015 | https://github.com/Supermedo/uncharted_pc
+Gravity Rush Remastered | https://github.com/LucaPazienza/gravityrush_pc
+Gravity Rush 2 | https://github.com/HayatoG/gr2_pc
+inFAMOUS Second Son (CUSA00223, base game 1.00 + update 1.07) | https://github.com/HayatoG/iss_pc
+MediEvil (2019, CUSA11227; the European CUSA12982 works too) | https://github.com/bc160201983/medievil_2019_pc_port
+Bloodborne (CUSA03173) | https://github.com/Supermedo/bloodborne_pc
+P.T. (CUSA01127) | https://github.com/LoreanXavier/pt-pc
+
+=============
+--MICROSOFT--
+=============
+
+-XBOX-
+Mercernaries 1 | https://github.com/KraftMacAndChee/Mercenaries-Recompiled
+
+-XBOX 360-
+Saints Row (2006) | https://github.com/whompay/SaintsReborn
+The Darkness | https://github.com/portingpete/The-Darkness-Recomp/
+WET | https://github.com/Supermedo/wet-recomp
+Call of Duty 3 | https://github.com/FrankHUN88453/CoD3Recomp
+Skate 3 | https://github.com/mchughalex/skate3recomp
+Dante's Inferno | https://github.com/florinp93/hells-gate-recomp
+Fable 2 (4D5307F1) | https://github.com/himdo/Fable-2-Recomp
+
+===========
+--VR MODS--
+===========
+
+Skyrim VR (Mad God's Overhaul SFW - A Skyrim VR Wabbajack Modlist) | https://www.nexusmods.com/skyrimspecialedition/mods/107780 
+DLSS5 in VR | https://www.youtube.com/watch?v=AkXzQ_rFImc
+
+Titanfall 2 | https://github.com/CircuitLord/CircuitLordVRModInstaller
+
+Red Dead Redemption (2024) | https://github.com/Disonomouss/RDRVR
+Call of Duty: Modern Warfare 2 Campaign Remastered | https://github.com/Aeka0/Overlord
+
+Doom (2016) | https://github.com/CactusVRStudios/KHARVOX
+Doom Eternal | https://github.com/CactusVRStudios/KHARVOX-ARGENT
+BioShock TRILOGY | https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr
+Max Payne 2: The Fall of Max Payne | https://github.com/evilSheep/max-payne-2-vr#max-payne-2-vr
+
+Resident Evil 5 | https://www.nexusmods.com/residentevil5goldedition/mods/1107
+Resident Evil 4 Remake | https://re4vr.com/
+Resident Evil 7 | https://www.nexusmods.com/residentevil7/mods/309
+
+FEAR | https://github.com/thefreemike31/fear-vr
+Call of Duty 4: Modern Warfare (2007 original release) | https://github.com/jplakon/CallOfDuty4_VR
+Dead Island 2 | https://github.com/jbusfield/DI2_UEVR
+Cyberpunk 2077 | https://www.nexusmods.com/cyberpunk2077/mods/30093?tab=description
+Marvel's Spider-Man Remastered | https://github.com/IlyaMez/SpidyVR
+Halo: The Master Chief Collection | https://github.com/moistman42069/MCCVR-Halo-Build
+Gears of War: E-Day (2026) | 
+DriveClub Recomp VR mod by Hookmanuk | https://github.com/hookmanuk/driveclub-recomp
