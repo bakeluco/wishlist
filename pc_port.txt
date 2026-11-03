@@ -1,9 +1,13 @@
+============
+--TEXTURES--
+============
+Texture Packs Archive | https://docs.google.com/spreadsheets/d/1sif8FeRGJRbytK8wFRXgF6Hke9V6GUFs/edit?gid=431767549#gid=431767549
+
 ==========
 --ARCADE--
 ==========
 
 Daytona USA (Sega Model 2) | https://github.com/alphanu1/daytona-arcade-recomp
-
 
 ============
 --NINTENDO--
@@ -11,14 +15,16 @@ Daytona USA (Sega Model 2) | https://github.com/alphanu1/daytona-arcade-recomp
 
 -N64-
 Conker's Bad Fur Day (US Version) | https://github.com/sciaschi/CBFD-Recompiled
+Duke Nukem - Zero Hour (USA).z64 | https://dnzh-overclocked.com/
 
 -Gamecube-
+Eternal Darkness: Sanity's Requiem (2002) | https://github.com/griches/EternalDarknessRecomp
 Luigi’s Mansion 1 | https://github.com/rob646464/luigis-mansion-pc-port 
 Metroid Prime 1 | https://github.com/Odrannnn/MetroidPrimePort 
+Metroid Prime 2: Echoes - USA GameCube (G2ME01), PAL (G2MP01) and Trilogy (R3ME01 USA, R3MP01 PAL) | https://github.com/Odrannnn/MetroidPrime2Port
+Pikmin 1 | https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port 
 Super Mario Sunshine https://github.com/chasem-dev/sms-pc-port 
 Super Mario Sunshine (GameCube, North America, GMSE01) | https://github.com/TekRantGaming/sms-pc-port
-Pikmin 1 | https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port 
-Eternal Darkness: Sanity's Requiem (2002) | https://github.com/griches/EternalDarknessRecomp
 Star Fox Adventures | https://github.com/JackPriceBurns/foxhollow
 
 -DS-
@@ -30,6 +36,7 @@ The Legend of Zelda: Ocarina of Time 3D (texture pack) | https://www.henrikomagn
 
 -Wii-
 New Super Mario Bros. Wii | https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation
+Resident Evil: The Umbrella Chronicles for the Wii, region NTSC-U, game ID RBUE08) | https://github.com/solleo95/reuc-recomp
 Super Mario Galaxy | https://github.com/keepvaibin/nebula
 Wario Land: Shake It! (Wii, 2008, US release RWLE01) | https://github.com/santiagovalencia109/Wario-Land-Shake-It-Native-PC
 
@@ -37,66 +44,94 @@ Wario Land: Shake It! (Wii, 2008, US release RWLE01) | https://github.com/santia
 The Legend of Zelda: The Wind Waker HD | https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp
 
 -Switch-
+Metroid Dread 2.1.0. | https://github.com/yozander2009-stack/Metroid-Dread-Recomp
+The Legend of Zelda: Breath of the Wild (version 1.9.0) | https://github.com/Revivedx/SavageWindRecomp
+The Legend of Zelda: Tears of the Kingdom (version 1.4.3) | https://github.com/kuraeow/ultratears
 The Legend of Zelda: Link's Awakening (2019) https://github.com/peiikai/LASRecomp
 
 =========
 --SONY--
 =========
 
+-PS1-
+Alien Resurrection (USA, SLUS-00633) | https://github.com/DiegoDeDios/AlienReRecomp
+
 -PS2-
-Sly Cooper and the Thievius Raccoonus 1 | https://github.com/theclub654/ProjectCane
 Fatal Frame 1 | https://github.com/Mikompilation/Himuro
 Fatal Frame 1 | https://github.com/Mikompilation/MikuPan
-Ratchet & Clank (2002) | https://github.com/re-rac/rerac-launcher
+Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590) | https://github.com/gothamor/gta-vcs-recomp
 ICO (2001) | https://github.com/nathanialf/ico-pc
+Ratchet & Clank (2002) | https://asobicodes.dev/project?id=rac-rs
+Ratchet & Clank (2002) | https://github.com/re-rac/rerac-launcher
+Sly Cooper and the Thievius Raccoonus 1 | https://github.com/theclub654/ProjectCane
 
 -PS3-
 Infamous 1 | https://github.com/whompay/inFAMOUSreborn
 Infamous 1 | https://github.com/adamstark1/inFAMOUS-Reborn-PS3
+Ratchet & Clank: A Crack in Time | https://github.com/HighDrexler/RACiT
 Resident Evil Code: Veronica X | https://github.com/kastieloficial/RE-Code-Veronica-Recomp
 
 -PS4-
-The Last Guardian | https://github.com/HayatoG/tlg_pc
+Bloodborne (CUSA03173) | https://github.com/Supermedo/bloodborne_pc
 God of War 3 Remastered 2015 | https://github.com/FelipePrado0/SpartanPort
 God of War 3 Remastered 2015 | https://github.com/FelipePrado0/gow3_pc
 God of War 3 Remastered 2015 | https://github.com/R-V-L/gow3_pc
-Killzone Shadow Fall | https://github.com/lesca-191204/killzone-shadowfall-pc 
-Shadow of the Colossus 2018 | https://github.com/AjncSystem/ShadowOfTheColossus-PC
-Uncharted: The Nathan Drake Collection ( 1, 2, 3 ) 2015 | https://github.com/Supermedo/uncharted_pc
 Gravity Rush Remastered | https://github.com/LucaPazienza/gravityrush_pc
 Gravity Rush 2 | https://github.com/HayatoG/gr2_pc
 inFAMOUS Second Son (CUSA00223, base game 1.00 + update 1.07) | https://github.com/HayatoG/iss_pc
+Killzone Shadow Fall | https://github.com/lesca-191204/killzone-shadowfall-pc 
 MediEvil (2019, CUSA11227; the European CUSA12982 works too) | https://github.com/bc160201983/medievil_2019_pc_port
-Bloodborne (CUSA03173) | https://github.com/Supermedo/bloodborne_pc
 P.T. (CUSA01127) | https://github.com/LoreanXavier/pt-pc
 Ratchet & Clank (2016) (CUSA01047 USA v1.00) | https://github.com/shehab4546/RatchetPort
+Shadow of the Colossus 2018 | https://github.com/AjncSystem/ShadowOfTheColossus-PC
+The Last Guardian | https://github.com/HayatoG/tlg_pc
+Uncharted: The Nathan Drake Collection ( 1, 2, 3 ) 2015 | https://github.com/Supermedo/uncharted_pc
+
+-PSVITA-
+Killzone: Mercenary 	US 	PCSA00107 	1.00, 1.12 | https://github.com/TheLostPantheon/nativ
+Uncharted: Golden Abyss 	US 	PCSA00029 	1.00 | https://github.com/TheLostPantheon/nativ
 
 =============
 --MICROSOFT--
 =============
 
 -XBOX-
-Mercernaries 1 | https://github.com/KraftMacAndChee/Mercenaries-Recompiled
+007: Everything or Nothing | https://github.com/hk21x/007eon-recomp
 007: From Russia with Love | https://github.com/TGP482/007FRWL-XBERecomp
+007: Nightfire | https://github.com/TGP482/007Nightfire-XBERecomp
+BLiNX 2: Masters of Time & Space | https://github.com/apexJCL/blinx2-recomp
+Buffy the Vampire Slayer: Chaos Bleeds | https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc
+Darkwatch | https://github.com/linkssy2/DarkwatchDarkerEdition
+Futurama (2003) | https://github.com/hiburn8/Futurama-The-Game-The-Recomp
+Mercernaries 1 | https://github.com/KraftMacAndChee/Mercenaries-Recompiled
+Onimusha (USA) | https://github.com/rafaelkenedy/genma-recomp
 Splinter Cell: Double Agent | https://github.com/TGP482/SCDA-XBERecomp
+Star Wars: Episode III - Revenge of the Sith | https://github.com/jedijosh920/SWROTS-PC
+Tim Burton's The Nightmare Before Christmas: Oogie's Revenge (Xbox, USA, title ID 42560004) | https://github.com/josiahg2502-glitch/OogiesRevengeRecompiled
 The Lord of the Rings: The Two Towers (Xbox, USA, 2002) | https://github.com/Gumpolas/TooTawersRecomp
 The Lord of the Rings: The Return of the King | https://github.com/Shagg88/Athelas
 
 -XBOX 360-
+Army of Two (2008) | https://github.com/OpenPortroid/ArmyOfTwoRecompilation
+Call of Duty 3 | https://github.com/FrankHUN88453/CoD3Recomp
+Condemned 2: Bloodshot | https://github.com/psxrestore/Condemned2Recomp
+Crackdown (2007) | https://github.com/SkiddyToast/Crackdown
+Dante's Inferno | https://github.com/florinp93/hells-gate-recomp
+Fable 2 (4D5307F1) | https://github.com/himdo/Fable-2-Recomp
+Gears of War 2 	US disc (0.0.0.5) + Title Update 6 (required) | https://github.com/Shagg88/COGBox
+Gears of War 3 	Disc + Title Update 6 (required) | https://github.com/Shagg88/COGBox
+Gears of War: Judgment 	Disc + Title Update 4 (required) | https://github.com/Shagg88/COGBox
+Peter Jackson's King Kong Xbox 360 | https://github.com/TekRantGaming/king-kong-recompiled
 Saints Row (2006) | https://github.com/whompay/SaintsReborn
+skate (EA Black Box, 2007) | https://github.com/cookingwithsimon/Skate1Recompiled
+Skate 3 | https://github.com/mchughalex/skate3recomp
+Splatterhouse (2010) (4E4D07F0) | https://github.com/0c0de/splatterhouse-decomp
 The Darkness | https://github.com/portingpete/The-Darkness-Recomp/
 WET | https://github.com/Supermedo/wet-recomp
 WET | https://github.com/nikolaygorb/WetRecomp
-Call of Duty 3 | https://github.com/FrankHUN88453/CoD3Recomp
-Skate 3 | https://github.com/mchughalex/skate3recomp
-Dante's Inferno | https://github.com/florinp93/hells-gate-recomp
-Fable 2 (4D5307F1) | https://github.com/himdo/Fable-2-Recomp
-Splatterhouse (2010) (4E4D07F0) | https://github.com/0c0de/splatterhouse-decomp
-Army of Two (2008) | https://github.com/OpenPortroid/ArmyOfTwoRecompilation
-Crackdown (2007) | https://github.com/SkiddyToast/Crackdown
-Peter Jackson's King Kong Xbox 360 | https://github.com/TekRantGaming/king-kong-recompiled
 
 -WINDOWS-
+Fallout: New Vegas | https://nv-forever.com/
 Prince of Persia Sands trilogy | https://github.com/kaminoer/PoP-Mod-Manager
 
 ===========
@@ -126,6 +161,7 @@ Call of Duty 4: Modern Warfare (2007 original release) | https://github.com/jpla
 Call of Duty 5: World at War | https://github.com/RyanCraighead/WorldWarVR-Releases
 Tomb Raider: Legend (PC, Steam or GOG) | https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port
 
+Dead Space 2 | https://github.com/chortdev/DeadSpace2VR
 Dead Island 2 | https://github.com/jbusfield/DI2_UEVR
 Cyberpunk 2077 | https://www.nexusmods.com/cyberpunk2077/mods/30093?tab=description
 Marvel's Spider-Man Remastered | https://github.com/IlyaMez/SpidyVR

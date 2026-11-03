@@ -3,7 +3,6 @@ STEAM
 https://store.steampowered.com/app/1611910/Warhammer_40000_Chaos_Gate__Daemonhunters/ 
 
 -AAA-ACTION-ADVENTURE-
-https://store.steampowered.com/app/3357650/PRAGMATA/ 
 https://store.steampowered.com/app/3768760/007_First_Light/
 https://store.steampowered.com/app/2840770/Avatar_Frontiers_of_Pandora/ 
 https://store.steampowered.com/app/3321460/Crimson_Desert/ 
@@ -34,6 +33,8 @@ https://store.steampowered.com/app/4570720/DragonSword__Awakening/
 https://store.steampowered.com/app/1172710/Dune_Awakening/ 
 https://store.steampowered.com/app/553850/HELLDIVERS_2/ 
 
+-VR-
+https://store.steampowered.com/app/5440820/Scary_Hot_Dogs/
 
 -CRPG-
 https://store.steampowered.com/app/3710600/Warhammer_40000_Dark_Heresy/ 
