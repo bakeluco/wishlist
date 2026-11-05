@@ -45,6 +45,7 @@ The Legend of Zelda: The Wind Waker HD | https://github.com/ZeldaWWHDRecomp/Zeld
 
 -Switch-
 Metroid Dread 2.1.0. | https://github.com/yozander2009-stack/Metroid-Dread-Recomp
+Metroid Prime Remastered (2023) | https://github.com/gminustwo/primerecomp
 The Legend of Zelda: Breath of the Wild (version 1.9.0) | https://github.com/Revivedx/SavageWindRecomp
 The Legend of Zelda: Tears of the Kingdom (version 1.4.3) | https://github.com/kuraeow/ultratears
 The Legend of Zelda: Link's Awakening (2019) https://github.com/peiikai/LASRecomp
@@ -55,6 +56,8 @@ The Legend of Zelda: Link's Awakening (2019) https://github.com/peiikai/LASRecom
 
 -PS1-
 Alien Resurrection (USA, SLUS-00633) | https://github.com/DiegoDeDios/AlienReRecomp
+Castlevania: Symphony of the Night | https://github.com/BlackLabelHQ/SymphonyRecomp
+Castlevania: Symphony of the Night for the PlayStation that brings the Sega Saturn version's exclusive content and the PSP Dracula X Chronicles additions to the PS1, on one CD. | https://github.com/renanbianchi/sotn-ultimate
 
 -PS2-
 Fatal Frame 1 | https://github.com/Mikompilation/Himuro
@@ -66,6 +69,7 @@ Ratchet & Clank (2002) | https://github.com/re-rac/rerac-launcher
 Sly Cooper and the Thievius Raccoonus 1 | https://github.com/theclub654/ProjectCane
 
 -PS3-
+Demon's Souls (PS3, USA, BLUS-30443) | https://github.com/timboat/demons-souls-recomp
 Infamous 1 | https://github.com/whompay/inFAMOUSreborn
 Infamous 1 | https://github.com/adamstark1/inFAMOUS-Reborn-PS3
 Ratchet & Clank: A Crack in Time | https://github.com/HighDrexler/RACiT
